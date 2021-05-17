@@ -22,6 +22,6 @@ img.mwe-math-fallback-image-inline, .helpContents-icon img {
   background-color: #6e7681 !important;
 }
 
-.oo-ui-icon-bell, .oo-ui-icon-tray, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget {
+.oo-ui-icon-bell, .oo-ui-icon-tray, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary, .infobox-header {
   background-color: #6e7681 !important;
 }
