@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Mode Wikipedia",
+  "version": "1.0",
+
+  "description": "Dark Mode for English Wikipedia",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "css": ["background.css"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+body, div, nav, table, tbody, li, ul, input, td, abbr, th, a {
+  background-color: #0d1117 !important;
+}
+
+h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption {
+  color: #ffffff !important;
+}
+
+a, .tocnumber, .toctext {
+  color: #58a6ff !important;
+}
+
+.mp-h2 {
+  background-color: #21262d !important;
+}
+
+img.mwe-math-fallback-image-inline, .helpContents-icon img {
+    filter: invert(90%) !important;
+}
+
+[class^="oo-ui-icon"] {
+  background-color: #6e7681 !important;
+}
+
+.oo-ui-icon-bell, .oo-ui-icon-tray, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget {
+  background-color: #6e7681 !important;
+}
