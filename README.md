@@ -1,4 +1,4 @@
-# Dark Mode for English Wikipedia on Firefox
+# Dark Mode for English Wikipedia on Firefox <img src="https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/darkwiki_icon.png" width="25" height="25">
 
 * Still work in progress, might be released as a Firefox extension in the future.
 * If you want to contribute - do not hesitate to contact me.
@@ -11,10 +11,10 @@
 3. Press: **Load Temporary Add-on...**
 4. Select the **manifest.json** file and there ya go!
 
-## Screenshot
+## Screenshot example
 ![picture](https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/screenshot.png)
 
-# Other links
+## Other links
 
 📺 Firefox extension tutorial: https://www.youtube.com/watch?v=9NY3wx9iEzY&t=388s
 
