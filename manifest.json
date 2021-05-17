@@ -1,9 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Dark Mode Wikipedia",
+  "name": "Dark Mode for Wikipedia",
   "version": "1.0",
 
   "description": "Dark Mode for English Wikipedia",
+
+  "icons": {
+    "48": "darkwiki_icon.png"
+  },
 
   "content_scripts": [
     {
