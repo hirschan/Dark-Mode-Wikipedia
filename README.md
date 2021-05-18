@@ -1,4 +1,4 @@
-# Dark Mode for English Wikipedia on Firefox <img src="https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/darkwiki_icon.png" width="25" height="25">
+# Dark Mode for English Wikipedia on Firefox <img src="https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
 
 * Still work in progress, might be released as a Firefox extension in the future.
 * If you want to contribute - do not hesitate to contact me.
