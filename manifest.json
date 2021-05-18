@@ -6,7 +6,7 @@
   "description": "Dark Mode for English Wikipedia",
 
   "icons": {
-    "48": "darkwiki_icon.png"
+    "48": "dark_wiki_icon.png"
   },
 
   "content_scripts": [
