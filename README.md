@@ -22,4 +22,6 @@
 
 ## To-do ##
 
-Look into: https://en.wikipedia.org/wiki/East_Midlands
+* Look into: https://en.wikipedia.org/wiki/East_Midlands
+* Fix headline "President of France": https://en.wikipedia.org/wiki/Napoleon_III
+* Fix black bullet lists: https://en.wikipedia.org/wiki/Franco-Prussian_War
