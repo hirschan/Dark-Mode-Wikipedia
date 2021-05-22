@@ -1,17 +1,17 @@
 body, div, nav, table, tbody, li, ul, input, td, abbr, th, a {
-  background-color: #0d1117 !important;
+  background-color: #0d1117 !important; /*Dark blue coloring*/
 }
 
-h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption {
-  color: #ffffff !important;
+h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget {
+  color: #ffffff !important; /*White coloring*/
 }
 
 a, .tocnumber, .toctext {
-  color: #58a6ff !important;
+  color: #58a6ff !important; /*Light blue coloring, for clickable text*/
 }
 
 .mp-h2 {
-  background-color: #21262d !important;
+  background-color: #21262d !important; /*Lighter dark blue coloring*/
 }
 
 img.mwe-math-fallback-image-inline, .helpContents-icon img {
@@ -19,9 +19,9 @@ img.mwe-math-fallback-image-inline, .helpContents-icon img {
 }
 
 [class^="oo-ui-icon"] {
-  background-color: #6e7681 !important;
+  background-color: #6e7681 !important; /*Dark grey coloring*/
 }
 
 .oo-ui-icon-bell, .oo-ui-icon-tray, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
-  background-color: #6e7681 !important;
+  background-color: #6e7681 !important; /*Dark grey coloring*/
 }
