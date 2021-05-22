@@ -19,5 +19,5 @@ img.mwe-math-fallback-image-inline, .helpContents-icon img {
 }
 
 [class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
-  background-color: #6e7681 !important; /*Dark grey coloring*/
+  background-color: #6e7681 !important; /*Dark grey coloring, for making icons visible*/
 }
