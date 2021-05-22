@@ -19,9 +19,3 @@
 📺 Firefox extension tutorial: https://www.youtube.com/watch?v=9NY3wx9iEzY&t=388s
 
 📺 CSS tutorial: https://www.youtube.com/watch?v=1PnVor36_40&t=251s
-
-## To-do ##
-
-* Look into: https://en.wikipedia.org/wiki/East_Midlands
-* Fix headline "President of France": https://en.wikipedia.org/wiki/Napoleon_III
-* Fix black bullet lists: https://en.wikipedia.org/wiki/Franco-Prussian_War
