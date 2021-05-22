@@ -11,17 +11,13 @@ a, .tocnumber, .toctext {
 }
 
 .mp-h2 {
-  background-color: #21262d !important; /*Lighter dark blue coloring*/
+  background-color: #21262d !important; /*Lighter dark blue coloring, for headlines on home page*/
 }
 
 img.mwe-math-fallback-image-inline, .helpContents-icon img {
     filter: invert(90%) !important;
 }
 
-[class^="oo-ui-icon"] {
-  background-color: #6e7681 !important; /*Dark grey coloring*/
-}
-
-.oo-ui-icon-bell, .oo-ui-icon-tray, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
+[class^="oo-ui-icon"], #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
   background-color: #6e7681 !important; /*Dark grey coloring*/
 }
