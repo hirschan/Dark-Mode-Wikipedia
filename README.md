@@ -5,7 +5,10 @@
 * Color scheme is based on Github's dark color scheme.
 
 ## Installation
+There are two ways of installing it:
+1. Can be added [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) as an extension to Firefox.
 
+Or:
 1. Download the repository
 2. Open Firefox and type in search field: **about:debugging#/runtime/this-firefox**
 3. Press: **Load Temporary Add-on...**
