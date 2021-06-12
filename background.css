@@ -10,7 +10,7 @@ a, .tocnumber, .toctext {
   color: #58a6ff !important; /*Light blue coloring, for clickable text*/
 }
 
-.mp-h2 {
+.mp-h2, caption {
   background-color: #21262d !important; /*Lighter dark blue coloring, for headlines on home page*/
 }
 
@@ -21,3 +21,9 @@ img.mwe-math-fallback-image-inline, .helpContents-icon img {
 [class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
   background-color: #6e7681 !important; /*Dark grey coloring, for making icons visible*/
 }
+
+/*CSS Selectors:
+- HTML elements, e.g: div, nav
+- HTML class attributes, syntax: .class-name (.btn)
+- HTML ID, syntax (supposed to be unique): #id (#searchButton)
+ */
