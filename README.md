@@ -18,9 +18,8 @@ Or:
 
 ## Other links
 
-📺 Firefox extension [tutorial](https://www.youtube.com/watch?v=9NY3wx9iEzY&t=388s)
-
-📺 CSS [tutorial](https://www.youtube.com/watch?v=1PnVor36_40&t=251s)
+* Firefox extension [tutorial](https://www.youtube.com/watch?v=9NY3wx9iEzY&t=388s)
+* CSS [tutorial](https://www.youtube.com/watch?v=1PnVor36_40&t=251s)
 
 ## For next release ##
-TBA.
+Look into: https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita
