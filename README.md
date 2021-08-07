@@ -1,7 +1,7 @@
 # Dark Mode for Wikipedia on Firefox <img src="https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
 
-* If you want to contribute - feel free to do so by contacting me or creating a PR!
-* Color scheme is based on Github's dark them.
+* If you want to contribute - feel free to do so by contacting me or creating a pull request.
+* Color scheme is based on Github's dark theme.
 
 ## Installation
 There are two ways of installing it:
