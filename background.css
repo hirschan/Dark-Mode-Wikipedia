@@ -1,4 +1,4 @@
-body, div, nav, table, tbody, li, ul, input, td, abbr, th, a {
+body, div, nav, table, tbody, li, ul, input, td, abbr, th, a, caption, i {
   background-color: #0d1117 !important; /*Dark blue coloring*/
 }
 
@@ -10,12 +10,12 @@ a, .tocnumber, .toctext {
   color: #58a6ff !important; /*Light blue coloring, for clickable text*/
 }
 
-.mp-h2, caption {
+.mp-h2 {
   background-color: #21262d !important; /*Lighter dark blue coloring, for headlines on home page*/
 }
 
-pre, .hll {
-  background-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site*/
+pre, .hll, tr::before {
+  background-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
 }
 
 img.mwe-math-fallback-image-inline, .helpContents-icon img {
