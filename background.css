@@ -14,8 +14,10 @@ a, .tocnumber, .toctext {
   background-color: #21262d !important; /*Lighter dark blue coloring, for headlines on home page*/
 }
 
-pre, .hll, tr::before {
+pre, code, .hll, tr::before {
   background-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
+  border-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
+  color: #ffffff !important; /*White coloring*/
 }
 
 img.mwe-math-fallback-image-inline, .helpContents-icon img {
