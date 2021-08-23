@@ -23,9 +23,14 @@ Or:
 
 ## For next release
 
-## Checklist before release
+## Wiki checklist before release
 
-* Basic Wiki site: https://en.wikipedia.org/wiki/Sweden
-* Table example: https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita
-* LaTeX formatting: https://en.wikipedia.org/wiki/LaTeX
-* Mathematical formulas: https://en.wikipedia.org/wiki/Fraction
+* [Basic Wiki site](https://en.wikipedia.org/wiki/Sweden)
+* [Table example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
+* [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX)
+* [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
+* [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language)
+
+## Wall of Fame
+
+🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags!
