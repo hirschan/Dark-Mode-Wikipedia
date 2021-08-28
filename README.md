@@ -22,6 +22,8 @@ Or:
 * CSS [tutorial](https://www.youtube.com/watch?v=1PnVor36_40&t=251s)
 
 ## For next release
+* I will release version 1.3 as soon as I can on Firefox. Having issues with authentication to my Firefox account. Will probably solve on Sunday 29/8.
+* See new branch for idea of new feature to be included: [customize colors](https://github.com/hirschan/Dark-Mode-Wikipedia/tree/customize-colors).
 
 ## Wiki checklist before release
 
