@@ -1,0 +1,28 @@
+body{
+    background-color: #202023;
+    color:  white;
+    display:  flex;
+ }
+ 
+ .box {
+   box-sizing: border-box;
+ }
+ 
+ .color_container { 
+   /*evil hack from stackoverflow to make the color input look like a circle
+   the container is a small circle and hide all the overflow*/
+   width: 16px;
+   height: 16px;
+   border-radius: 25px;
+   overflow: hidden;
+   float: left;
+ }
+ 
+ input[type="color"] {
+   /*the input is really big and a bit translated such that the ugly part overflow the small container and is hidden*/
+   border: 0;
+   padding: 0;
+   width: 200%;
+   height: 200%;
+   transform: translate(-25%, -25%)
+ }
