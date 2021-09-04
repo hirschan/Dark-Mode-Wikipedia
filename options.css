@@ -6,6 +6,8 @@ body{
  
  .box {
    box-sizing: border-box;
+   display:  flex;
+   align-content: space-between;
  }
  
  .color_container { 
