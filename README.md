@@ -2,7 +2,7 @@
 
 ## Tasks
 - [ ] Group all 6 colors in background.css
-- [ ] Create UI for all 6 colors to change
+- [X] Create UI for all 6 colors to change
 - [ ] Be able to update the group colors, for instance change light blue color for hyperlinks to green. Then it should update following elements & classes: `a, .tocnumber, .toctext` on line 9 in background.css
 
 ## Idea for UI Design
