@@ -6,7 +6,8 @@
 
 ## Installation
 There are two ways of installing it:
-1. Can be added [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia-latest/) as an extension to Firefox.
+1. Can be added [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia-latest/) as an extension to Firefox. This is the latest & updated version.
+2. Old version (outdated) can be found [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia/).
 
 Or:
 1. Download the repository
