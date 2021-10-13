@@ -28,7 +28,8 @@ Or:
 - [X] [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX)
 - [X] [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
 - [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [X] [Java (check code formatting)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [X] [Java (code formatting)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [ ] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Java)
 
 ## Other links/tutorials
 

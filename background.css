@@ -6,6 +6,34 @@ h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget 
   color: #ffffff !important; /*White coloring*/
 }
 
+
+/* Java syntax */
+span.kd, span.kn {
+  color: #FF7B72 !important;
+}
+
+span.na {
+  color: #FFA657 !important;
+}
+
+span.linenos {
+  color: #5B6472 !important;
+}
+
+span.nc, span.nf, span.kt {
+  color: #D2A6D7 !important;
+}
+
+span.s {
+  color: #A5D6FF !important;
+}
+
+span.c1, span.cm {
+  color: #b2b4b6 !important;
+}
+
+
+
 a, .tocnumber, .toctext {
   color: #58a6ff !important; /*Light blue coloring, for clickable text*/
 }
