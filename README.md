@@ -28,6 +28,7 @@ Or:
 - [X] [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX)
 - [X] [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
 - [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [X] [Java (check code formatting)](https://en.wikipedia.org/wiki/Java_(programming_language))
 
 ## Other links/tutorials
 
