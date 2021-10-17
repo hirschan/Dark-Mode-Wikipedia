@@ -5,8 +5,7 @@
 * Version: 3.0
 
 ### Version history
-3.0
-- [X] Code syntax highlight with colors
+- [X] Code syntax highlight with colors (**3.0**)
 
 ## Installation
 There are two ways of installing it:
@@ -43,4 +42,5 @@ Or:
 ## Wall of Fame
 
 🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags
+
 🏆 Thank you [Mounster-Chef](https://github.com/Mounster-Chef) for finding issue with code syntax
