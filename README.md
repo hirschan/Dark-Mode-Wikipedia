@@ -2,7 +2,11 @@
 
 * If you want to contribute - consider creating a pull request
 * Color scheme is based on Github's dark theme
-* Currently version 2.0
+* Version: 3.0
+
+### Version history
+3.0
+- [X] Code syntax highlight with colors
 
 ## Installation
 There are two ways of installing it:
@@ -29,7 +33,7 @@ Or:
 - [X] [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
 - [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [X] [Java (code formatting)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [ ] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Java)
+- [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
 
 ## Other links/tutorials
 
@@ -38,4 +42,5 @@ Or:
 
 ## Wall of Fame
 
-🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags!
+🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags
+🏆 Thank you [Mounster-Chef](https://github.com/Mounster-Chef) for finding issue with code syntax
