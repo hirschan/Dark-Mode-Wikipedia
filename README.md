@@ -2,9 +2,10 @@
 
 * If you want to contribute - consider creating a pull request
 * Color scheme is based on Github's dark theme
-* Version: 3.0
+* Version: 3.1
 
 ### Version history
+- [X] Fixed Issue #7: ["Red links appear as blue"](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/7) (**3.1**)
 - [X] Code syntax highlight with colors (**3.0**)
 
 ## Installation

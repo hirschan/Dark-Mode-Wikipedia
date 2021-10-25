@@ -8,7 +8,7 @@ h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget 
 
 
 /* Code syntax */
-span.kd, span.kn {
+span.kd, span.kn, a.new {
   color: #FF7B72 !important;
 }
 
