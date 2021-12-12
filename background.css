@@ -1,5 +1,9 @@
-body, div, nav, table, tbody, li, ul, input, td, abbr, th, a, caption, i {
-  background-color: #0d1117 !important; /*Dark blue coloring*/
+body, nav, tbody, li, ul, input, td, abbr, a, caption, i {
+  background-color: #0d1117; /*Dark blue coloring*/
+}
+
+div, table, th{
+  background-color: #0d1117 !important; /*Dark blue coloring forced*/
 }
 
 h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget {
