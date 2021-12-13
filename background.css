@@ -1,8 +1,8 @@
-body, nav, tbody, li, ul, input, td, abbr, a, caption, i {
+td {
   background-color: #0d1117; /*Dark blue coloring*/
 }
 
-div, table, th{
+div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, i, b {
   background-color: #0d1117 !important; /*Dark blue coloring forced*/
 }
 

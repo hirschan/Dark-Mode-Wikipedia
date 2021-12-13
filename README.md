@@ -2,9 +2,10 @@
 
 * If you want to contribute - consider creating a pull request
 * Color scheme is based on Github's dark theme
-* Version: 3.1
+* Current version: 3.2
 
 ### Version history
+- [X] Fixed Issue #8: ["Coloring of table"](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/8) (**3.2**)
 - [X] Fixed Issue #7: ["Red links appear as blue"](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/7) (**3.1**)
 - [X] Code syntax highlight with colors (**3.0**)
 
@@ -22,18 +23,15 @@ Or:
 ## Screenshot example
 ![picture](https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/screenshot.png)
 
-## For next release
-* See new branch for idea of new feature to be included: [customize colors](https://github.com/hirschan/Dark-Mode-Wikipedia/tree/customize-colors).
-
 ## Wiki checklist before release
 
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/Sweden)
-- [X] [Table example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
+- [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
 - [X] [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX)
 - [X] [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
 - [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [X] [Java (code formatting)](https://en.wikipedia.org/wiki/Java_(programming_language))
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
+- [X] [Table example](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
 
 ## Other links/tutorials
 
@@ -42,6 +40,6 @@ Or:
 
 ## Wall of Fame
 
-🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags
+🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
 
-🏆 Thank you [Mounster-Chef](https://github.com/Mounster-Chef) for finding issue with code syntax
+🏆 Thank you [Mounster-Chef](https://github.com/Mounster-Chef) for finding issue with code syntax and discovering overriding colors in tables
