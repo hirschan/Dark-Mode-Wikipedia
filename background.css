@@ -42,7 +42,7 @@ a, .tocnumber, .toctext {
   color: #58a6ff !important; /*Light blue coloring, for clickable text*/
 }
 
-.mp-h2 {
+.mp-h2, th.headerSort, th.unsortable {
   background-color: #21262d !important; /*Lighter dark blue coloring, for headlines on home page*/
 }
 
