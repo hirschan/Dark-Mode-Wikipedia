@@ -5,14 +5,13 @@
 * Current version: 3.2
 
 ### Version history
+- [X] Updated grey coloring on table headers (**3.3**).
 - [X] Fixed Issue #8: ["Coloring of table"](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/8) (**3.2**)
 - [X] Fixed Issue #7: ["Red links appear as blue"](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/7) (**3.1**)
 - [X] Code syntax highlight with colors (**3.0**)
 
 ## Installation
-There are two ways of installing it:
-1. Can be added [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia-latest/) as an extension to Firefox. This is the latest & updated version.
-2. Old version 1.2 (outdated) can be found [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia/).
+Can be added [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia/) as an extension to Firefox.
 
 Or:
 1. Download the repository
