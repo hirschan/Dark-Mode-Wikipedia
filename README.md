@@ -1,7 +1,7 @@
 # Dark Mode for Wikipedia on Firefox <img src="https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
+This is a Firefox extension that converts your Wikipedia to dark mode, based on Github's dark default theme.
 
 * If you want to contribute - consider creating a pull request
-* Color scheme is based on Github's dark theme
 * Current version: 3.2
 
 ### Version history
@@ -31,11 +31,6 @@ Or:
 - [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
 - [X] [Table example](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
-
-## Other links/tutorials
-
-* Firefox extension [tutorial](https://www.youtube.com/watch?v=9NY3wx9iEzY&t=388s)
-* CSS [tutorial](https://www.youtube.com/watch?v=1PnVor36_40&t=251s)
 
 ## Wall of Fame
 
