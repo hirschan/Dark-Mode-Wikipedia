@@ -2,7 +2,6 @@
 This is a Firefox extension that converts your Wikipedia to dark mode, based on Github's dark default theme.
 
 * If you want to contribute - consider creating a pull request
-* Current version: 3.2
 
 ### Version history
 - [X] **3.5**: Fixed issue #11, [text color less white](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/11)
