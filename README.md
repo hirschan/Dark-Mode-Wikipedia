@@ -5,6 +5,7 @@ This is a Firefox extension that converts your Wikipedia to dark mode, based on 
 * Current version: 3.2
 
 ### Version history
+- [X] Table dark grey coloring, conflicting colors solved (**3.4**).
 - [X] Updated grey coloring on table headers (**3.3**).
 - [X] Fixed Issue #8: ["Coloring of table"](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/8) (**3.2**)
 - [X] Fixed Issue #7: ["Red links appear as blue"](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/7) (**3.1**)

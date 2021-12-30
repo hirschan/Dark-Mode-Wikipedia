@@ -10,7 +10,6 @@ h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget 
   color: #ffffff !important; /*White coloring*/
 }
 
-
 /* Code syntax */
 span.kd, span.kn, a.new {
   color: #FF7B72 !important;
@@ -20,8 +19,8 @@ span.na, span.k, span.nb, span.kr {
   color: #FFA657 !important;
 }
 
-span.linenos {
-  color: #5B6472 !important;
+span.linenos, td.table-na, td.no.table-no2 {
+  background-color: #0d1117 !important;
 }
 
 span.nc, span.nf, span.kt {
@@ -32,10 +31,9 @@ span.s, span.s2 {
   color: #A5D6FF !important;
 }
 
-span.c1, span.cm {
+span.c1, span.cm, td.table-partial {
   color: #b2b4b6 !important;
 }
-
 
 
 a, .tocnumber, .toctext {
@@ -47,8 +45,8 @@ a, .tocnumber, .toctext {
 }
 
 pre, code, .hll, tr::before {
-  background-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
-  border-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
+  background-color: #21262d !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
+  /*border-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
   color: #ffffff !important; /*White coloring*/
 }
 
