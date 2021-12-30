@@ -7,7 +7,7 @@ div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, i, b {
 }
 
 h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget {
-  color: #ffffff !important; /*White coloring*/
+  color: #c9d1d9 !important; /*White coloring*/
 }
 
 /* Code syntax */
@@ -47,7 +47,7 @@ a, .tocnumber, .toctext {
 pre, code, .hll, tr::before {
   background-color: #21262d !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
   /*border-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
-  color: #ffffff !important; /*White coloring*/
+  color: #c9d1d9 !important; /*White coloring*/
 }
 
 img.mwe-math-fallback-image-inline, .helpContents-icon img {
