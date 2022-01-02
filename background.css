@@ -7,8 +7,8 @@
 
 div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b {
   background-color: #0d1117 !important; /* Dark coloring */
-}
 
+}
 h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget {
   color: #c9d1d9 !important; /* Light grey coloring, e.g. headlines */
 }
