@@ -17,6 +17,10 @@ h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget 
   color: #c9d1d9 !important; /* Light grey coloring, e.g. headlines */
 }
 
+canvas {
+  background-color: #c9d1d9 !important; /* Light grey background for graphs with statistics */
+}
+
 /* Code syntax colors */
 span.kd, span.kn, a.new {
   color: #FF7B72 !important;

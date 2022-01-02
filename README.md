@@ -1,7 +1,8 @@
 # Dark Mode for Wikipedia on Firefox <img src="https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
 This is a Firefox extension that converts your Wikipedia to dark mode, based on Github's dark default theme. The goal is to make this extension as good as possible, however some minor changes might come at the expense of previous fixes, which is why I need to consider some suggestions suitable or not.
 
-* If you want to contribute - consider creating a pull request
+* Feel free to contribute!
+* Currently 1,800+ downloads
 
 ### Version history
 - [X] **3.6**: Fixed issue #14, [factorial formulas appear dark](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/14)
@@ -24,16 +25,17 @@ Or:
 ## Screenshot example
 ![picture](https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/screenshot.png)
 
-## Wiki checklist before release
+## Wiki checklist before releases
 
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/Sweden)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
 - [X] [LaTeX code formatting](https://en.wikipedia.org/wiki/LaTeX#How_it_works)
 - [X] [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
-- [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language)#Syntax_and_semantics)
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
 - [X] [Vanilla table with different colors](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
 - [X] [Factorial images](https://en.wikipedia.org/wiki/Factorial)
+- [X] [Statistics graph](https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg#Statistics)
 
 ## Wall of Fame
 
