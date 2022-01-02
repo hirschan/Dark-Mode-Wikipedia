@@ -5,6 +5,7 @@ This is a Firefox extension that converts your Wikipedia to dark mode, based on 
 * Currently 1,800+ downloads
 
 ### Version history
+- [X] **3.7**: Grey background to graphs
 - [X] **3.6**: Fixed issue #14, [factorial formulas appear dark](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/14)
 - [X] **3.5**: Fixed issue #11, [text color less white](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/11)
 - [X] **3.4**: Table dark grey coloring, conflicting colors solved
