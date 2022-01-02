@@ -5,10 +5,6 @@
 
 !important means forced coloring */
 
-div.mwe-math-element {
-  background-color: #4b5261 !important; /* Grey background for transparent images (factorial numbers) */
-}
-
 div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b {
   background-color: #0d1117 !important; /* Dark coloring */
 }
@@ -54,7 +50,7 @@ pre, code, .hll, tr::before {
   color: #c9d1d9 !important; /* White grey coloring */
 }
 
-img.mwe-math-fallback-image-inline, .helpContents-icon img {
+img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon img {
     filter: invert(90%) !important;
 }
 
