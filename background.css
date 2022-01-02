@@ -1,53 +1,53 @@
-td {
-  background-color: #0d1117; /*Dark blue coloring*/
+/* CSS Selectors:
+- HTML elements, e.g: div, nav
+- HTML class attributes, syntax: .class-name (.btn)
+- HTML ID, syntax (supposed to be unique): #id (#searchButton)
+
+!important means forced coloring */
+
+div.mwe-math-element {
+  background-color: #4b5261 !important; /* Grey background for transparent images (factorial numbers) */
 }
 
-div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, i, b {
-  background-color: #0d1117 !important; /*Dark blue coloring forced*/
+div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b {
+  background-color: #0d1117 !important; /* Dark coloring */
 }
 
 h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget {
-  color: #c9d1d9 !important; /*White coloring*/
+  color: #c9d1d9 !important; /* Light grey coloring, e.g. headlines */
 }
 
-/* Code syntax */
+/* Code syntax colors */
 span.kd, span.kn, a.new {
   color: #FF7B72 !important;
 }
-
 span.na, span.k, span.nb, span.kr {
   color: #FFA657 !important;
 }
-
 span.linenos, td.table-na, td.no.table-no2 {
   background-color: #0d1117 !important;
 }
-
 span.nc, span.nf, span.kt {
   color: #D2A6D7 !important;
 }
-
 span.s, span.s2 {
   color: #A5D6FF !important;
 }
-
 span.c1, span.cm, td.table-partial {
   color: #b2b4b6 !important;
 }
 
-
 a, .tocnumber, .toctext {
-  color: #58a6ff !important; /*Light blue coloring, for clickable text*/
+  color: #58a6ff !important; /* Light blue coloring, for clickable text */
 }
 
 .mp-h2, th.headerSort, th.unsortable {
-  background-color: #21262d !important; /*Lighter dark blue coloring, for headlines on home page*/
+  background-color: #21262d !important; /* Lighter dark blue coloring */
 }
 
 pre, code, .hll, tr::before {
-  background-color: #21262d !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
-  /*border-color: #5B6472 !important; /*Light grey coloring, mostly used for LateX wiki site & tables*/
-  color: #c9d1d9 !important; /*White coloring*/
+  background-color: #21262d !important; /* Light grey coloring, mostly used for LateX wiki site & tables */
+  color: #c9d1d9 !important; /* White grey coloring */
 }
 
 img.mwe-math-fallback-image-inline, .helpContents-icon img {
@@ -55,11 +55,5 @@ img.mwe-math-fallback-image-inline, .helpContents-icon img {
 }
 
 [class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
-  background-color: #6e7681 !important; /*Dark grey coloring, for making icons visible*/
+  background-color: #6e7681 !important; /* Dark grey coloring, making icons visible */
 }
-
-/*CSS Selectors:
-- HTML elements, e.g: div, nav
-- HTML class attributes, syntax: .class-name (.btn)
-- HTML ID, syntax (supposed to be unique): #id (#searchButton)
- */
