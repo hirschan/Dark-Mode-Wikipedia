@@ -1,23 +1,28 @@
 /* CSS Selectors:
-- HTML elements, e.g: div, nav
-- HTML class attributes, syntax: .class-name (.btn)
-- HTML ID, syntax (supposed to be unique): #id (#searchButton)
+- HTML elements (div, nav, etc.)
+- HTML class attributes: .class-name (.btn)
+- HTML ID, unique: #id (#searchButton)
 
 !important means forced coloring */
 
-div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b {
-  background-color: #0d1117 !important; /* Dark coloring */
-
+/* Dark coloring */
+div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b,
+td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
+td.navbox-abovebelow {
+  background-color: #0d1117 !important;
 }
+
+/* Light grey, e.g. headlines */
 h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget {
-  color: #c9d1d9 !important; /* Light grey coloring, e.g. headlines */
+  color: #c9d1d9 !important;
 }
 
+/* Light grey background for graphs with statistics */
 canvas {
-  background-color: #c9d1d9 !important; /* Light grey background for graphs with statistics */
+  background-color: #c9d1d9 !important;
 }
 
-/* Code syntax colors */
+/* Code syntax colors below */
 span.kd, span.kn, a.new {
   color: #FF7B72 !important;
 }
@@ -35,25 +40,30 @@ span.s, span.s2 {
 }
 span.c1, span.cm, td.table-partial {
   color: #b2b4b6 !important;
-}
+} /* Code syntax coloring ends here */
 
+/* Light blue for clickable text */
 a, .tocnumber, .toctext {
-  color: #58a6ff !important; /* Light blue coloring, for clickable text */
+  color: #58a6ff !important;
 }
 
+/* Lighter dark blue */
 .mp-h2, th.headerSort, th.unsortable {
-  background-color: #21262d !important; /* Lighter dark blue coloring */
+  background-color: #21262d !important;
 }
 
+/* Light grey, mostly used for LateX wiki site & tables */
 pre, code, .hll, tr::before {
-  background-color: #21262d !important; /* Light grey coloring, mostly used for LateX wiki site & tables */
-  color: #c9d1d9 !important; /* White grey coloring */
+  background-color: #21262d !important;
+  color: #c9d1d9 !important;
 }
 
-img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon img {
+
+img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon {
     filter: invert(90%) !important;
 }
 
+/* Dark grey, making icons visible */
 [class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
-  background-color: #6e7681 !important; /* Dark grey coloring, making icons visible */
+  background-color: #6e7681 !important;
 }

@@ -1,19 +1,8 @@
 # Dark Mode for Wikipedia on Firefox <img src="https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
-This is a Firefox extension that converts your Wikipedia to dark mode, based on Github's dark default theme. The goal is to make this extension as good as possible, however some minor changes might come at the expense of previous fixes, which is why I need to consider some suggestions suitable or not.
+This is a Firefox extension that converts your Wikipedia to dark mode, based on Github's dark default theme. The goal is to make this extension as good as possible. *This extension is adapted for the English wikipedia domain (en.wikipedia.org).*
 
-* Feel free to contribute!
-* Currently 1,800+ downloads
-
-### Version history
-- [X] **3.8**: PR request, issue [#14](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/14) better solution
-- [X] **3.7**: Grey background to graphs
-- [X] **3.6**: Fixed issue #14, [factorial formulas appear dark](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/14)
-- [X] **3.5**: Fixed issue #11, [text color less white](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/11)
-- [X] **3.4**: Table dark grey coloring, conflicting colors solved
-- [X] **3.3**: Updated grey coloring on table headers
-- [X] **3.2**: Fixed issue #8, [coloring of table](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/8)
-- [X] **3.1**: Fixed issue #7, [red links appear as blue](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/7)
-- [X] **3.0**: Code syntax highlight with colors
+* Feel free to contribute
+* Currently more than 2,100 downloads on Firefox
 
 ## Installation
 Can be added [here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia/) as an extension to Firefox.
@@ -23,6 +12,18 @@ Or:
 2. Open Firefox and paste in the search field: **about:debugging#/runtime/this-firefox**
 3. Press: **Load Temporary Add-on...**
 4. Select the **manifest.json** file
+
+### Version history
+- [X] **3.9**: Dark coloring of sidebars, infoboxes and mainpage
+- [X] **3.8**: PR request, issue [#14](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/14) better solution
+- [X] **3.7**: Grey background to graphs
+- [X] **3.6**: Fixed issue #14, [factorial formulas appear dark](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/14)
+- [X] **3.5**: Fixed issue #11, [text color less white](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/11)
+- [X] **3.4**: Table dark grey coloring, conflicting colors solved
+- [X] **3.3**: Updated grey coloring on table headers
+- [X] **3.2**: Fixed issue #8, [coloring of table](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/8)
+- [X] **3.1**: Fixed issue #7, [red links appear as blue](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/7)
+- [X] **3.0**: Code syntax highlight with colors
 
 ## Screenshot example
 ![picture](https://github.com/alfredhirschfeld/Dark-Mode-Wikipedia/blob/master/screenshot.png)
@@ -38,6 +39,7 @@ Or:
 - [X] [Vanilla table with different colors](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
 - [X] [Factorial images](https://en.wikipedia.org/wiki/Factorial)
 - [X] [Statistics graph](https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg#Statistics)
+- [X] [Sidebars](https://en.wikipedia.org/wiki/Iron_Age)
 
 ## Wall of Fame
 
