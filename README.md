@@ -14,7 +14,7 @@ Or:
 4. Select the **manifest.json** file
 
 ## Version history
-See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.md). Latest version: 4.0
+See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.md).
 
 ## Screenshot example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshot.png" width="700">

@@ -7,14 +7,14 @@
 [attribute="value"]*/
 
 /* Dark coloring */
-div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b,
+div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b, tr,
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
-td.navbox-abovebelow, td.infobox-below {
+td.navbox-abovebelow, td.infobox-below, td.sidebar-content {
   background-color: #0d1117 !important;
 }
 
 /* Light grey */
-div, h1, h2, h3, h4, p, th, td, li, input, i, caption, .oo-ui-labelWidget, samp {
+div, h1, h2, h3, h4, p, th, td, li, input, i, caption, .oo-ui-labelWidget, samp, span { /* span */
   color: #c9d1d9 !important;
 }
 
@@ -44,7 +44,7 @@ span.c1, span.cm, td.table-partial, span.o, span.mi, span.mf, span.fm {
 } /* Code syntax coloring ends here */
 
 /* Light blue for clickable text */
-a, .tocnumber, .toctext {
+a, .tocnumber, .toctext, label.toctogglelabel {
   color: #58a6ff !important;
 }
 
@@ -59,7 +59,9 @@ pre, code, .hll, tr::before {
   color: #c9d1d9 !important;
 }
 
-img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon {
+img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
+/* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
+img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"] {
     filter: invert(90%) !important;
 }
 

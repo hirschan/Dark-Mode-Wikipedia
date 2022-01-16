@@ -1,5 +1,6 @@
 ##  Version history
 
+- [X] **4.0.2**: Fixed span elements
 - [X] **4.0**: Fixed issue #12, updated colors of code syntaxes, citation needed fix, dark cells instead of white, progress bars, etc.
 - [X] **3.9**: Dark coloring of sidebars, infoboxes and mainpage
 - [X] **3.8**: PR request, issue [#14](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/14) better solution
