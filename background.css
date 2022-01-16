@@ -36,7 +36,7 @@ span.linenos, td.table-na, td.no.table-no2 {
 span.nc, span.nf, span.kt {
   color: #D2A6D7 !important;
 }
-span[class^="s"], span.nn, span.c {
+span[class^="s"], span.nn, span.c, span.nv {
   color: #A5D6FF !important;
 }
 span.c1, span.cm, td.table-partial, span.o, span.mi, span.mf, span.fm {
