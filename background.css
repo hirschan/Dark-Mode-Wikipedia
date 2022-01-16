@@ -3,17 +3,18 @@
 - HTML class attributes: .class-name (.btn)
 - HTML ID, unique: #id (#searchButton)
 
-!important means forced coloring */
+!important means forced coloring 
+[attribute="value"]*/
 
 /* Dark coloring */
 div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b,
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
-td.navbox-abovebelow {
+td.navbox-abovebelow, td.infobox-below {
   background-color: #0d1117 !important;
 }
 
-/* Light grey, e.g. headlines */
-h1, h2, h3, h4, p, th, td, div, li, input, span, i, caption, .oo-ui-labelWidget {
+/* Light grey */
+div, h1, h2, h3, h4, p, th, td, li, input, i, caption, .oo-ui-labelWidget, samp {
   color: #c9d1d9 !important;
 }
 
@@ -26,7 +27,7 @@ canvas {
 span.kd, span.kn, a.new {
   color: #FF7B72 !important;
 }
-span.na, span.k, span.nb, span.kr {
+span.na, span.k, span.nb, span.kr, span.vg {
   color: #FFA657 !important;
 }
 span.linenos, td.table-na, td.no.table-no2 {
@@ -35,10 +36,10 @@ span.linenos, td.table-na, td.no.table-no2 {
 span.nc, span.nf, span.kt {
   color: #D2A6D7 !important;
 }
-span.s, span.s2 {
+span[class^="s"], span.nn, span.c {
   color: #A5D6FF !important;
 }
-span.c1, span.cm, td.table-partial {
+span.c1, span.cm, td.table-partial, span.o, span.mi, span.mf, span.fm {
   color: #b2b4b6 !important;
 } /* Code syntax coloring ends here */
 
@@ -58,7 +59,6 @@ pre, code, .hll, tr::before {
   color: #c9d1d9 !important;
 }
 
-
 img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon {
     filter: invert(90%) !important;
 }
@@ -66,4 +66,18 @@ img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpCo
 /* Dark grey, making icons visible */
 [class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
   background-color: #6e7681 !important;
+}
+
+/* Coloring tables with progress bars */
+div[role="img"] {
+  background-color: #21262d !important;
+}
+div[style*="background-color"] {
+  background-color: #6e7681 !important;
+}
+
+/* Solves: white cell with white text (issue #12) */
+/* Solves: https://en.wikipedia.org/wiki/2019_Danish_general_election */
+td[class^="ib-legis"], td[class^="nowrap"], td[style*="text-align:center"] {
+  background-color: #0d1117 !important;
 }
