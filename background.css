@@ -4,24 +4,84 @@
 - HTML ID, unique: #id (#searchButton)
 
 !important means forced coloring 
-[attribute="value"]*/
+
+CSS attributes & values: [attribute="value"] 
+* = all, div[class*="test"]
+~ = specific word, [title~="flower"]
+^ = whose value starts with the specified value, [class^="top"]
+Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
+
+
 
 /* Dark coloring */
-div, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b, tr,
-td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
-td.navbox-abovebelow, td.infobox-below, td.sidebar-content {
+div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
+div.portal-bar, div.suggestions-result, div.special-label, div.special-query, div.suggestions-special, div.editOptions, div[id*="wikiEditor-ui-toolbar"], div.sidebar-list-title,
+div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"],
+h1, table, th, body, nav, tbody, li, ul, input, abbr, a, caption, b, tr, p, dl, div[style*="clear"], div.NavHead, div.plainlinks,
+td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, div.thumb,
+td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"],
+
+/*Danish wiki*/div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"],
+/*German wiki*/ h2, div[class*="hauptseite"], div[style*="display"],
+/*Spanish wiki*/ div[class*="main-top"],
+/*French wiki*/ header, div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"],
+/*Swedish wiki*/ div[id^="edit"], div#deltagande {
   background-color: #0d1117 !important;
 }
 
-/* Light grey */
-div, h1, h2, h3, h4, p, th, td, li, input, i, caption, .oo-ui-labelWidget, samp, span { /* span */
+/* Light grey (text coloring) */
+div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
+div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header,
+div[style*="padding-left"], textarea,
+h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span {
   color: #c9d1d9 !important;
 }
 
-/* Light grey background for graphs with statistics */
+/* Lighter dark blue */
+.mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea,
+span.mw-ui-button, blockquote {
+  background-color: #21262d !important;
+}
+
+/* Light blue for clickable text */
+a, .tocnumber, .toctext, label.toctogglelabel {
+  color: #58a6ff !important;
+}
+
+/* Light grey background for graphs */
 canvas {
   background-color: #c9d1d9 !important;
 }
+
+/* Light grey, mostly used for LateX wiki site & tables */
+pre, code, .hll, tr::before {
+  background-color: #21262d !important;
+  color: #c9d1d9 !important;
+}
+
+/* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
+img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
+img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"] {
+    filter: invert(90%) !important;
+}
+
+/* Dark grey, making icons visible */
+[class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
+  background-color: #6e7681 !important;
+}
+
+/* Coloring tables with progress bars */
+div[role="img"] {
+  background-color: #21262d !important;
+}
+
+/* Solves: white cell with white text (issue #12) */
+/* Solves: https://en.wikipedia.org/wiki/2019_Danish_general_election */
+td[class^="ib-legis"], td[class^="nowrap"], td[style*="text-align:center"], td[style*="background-color:#eee"] {
+  background-color: #0d1117 !important;
+}
+
+
 
 /* Code syntax colors below */
 span.kd, span.kn, a.new {
@@ -41,45 +101,4 @@ span[class^="s"], span.nn, span.c, span.nv {
 }
 span.c1, span.cm, td.table-partial, span.o, span.mi, span.mf, span.fm {
   color: #b2b4b6 !important;
-} /* Code syntax coloring ends here */
-
-/* Light blue for clickable text */
-a, .tocnumber, .toctext, label.toctogglelabel {
-  color: #58a6ff !important;
-}
-
-/* Lighter dark blue */
-.mp-h2, th.headerSort, th.unsortable {
-  background-color: #21262d !important;
-}
-
-/* Light grey, mostly used for LateX wiki site & tables */
-pre, code, .hll, tr::before {
-  background-color: #21262d !important;
-  color: #c9d1d9 !important;
-}
-
-img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
-/* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
-img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"] {
-    filter: invert(90%) !important;
-}
-
-/* Dark grey, making icons visible */
-[class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
-  background-color: #6e7681 !important;
-}
-
-/* Coloring tables with progress bars */
-div[role="img"] {
-  background-color: #21262d !important;
-}
-div[style*="background-color"] {
-  background-color: #6e7681 !important;
-}
-
-/* Solves: white cell with white text (issue #12) */
-/* Solves: https://en.wikipedia.org/wiki/2019_Danish_general_election */
-td[class^="ib-legis"], td[class^="nowrap"], td[style*="text-align:center"] {
-  background-color: #0d1117 !important;
 }

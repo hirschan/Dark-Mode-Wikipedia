@@ -1,5 +1,5 @@
 ##  Version history
-
+- [X] **4.0.3**: Fixed issue #13 - [pie charts bug](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/13), #10 - [editing covered in black](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/10), started working on mainpages in different languages and other minor things
 - [X] **4.0.2**: Fixed span elements
 - [X] **4.0**: Fixed issue #12, updated colors of code syntaxes, citation needed fix, dark cells instead of white, progress bars, etc.
 - [X] **3.9**: Dark coloring of sidebars, infoboxes and mainpage
