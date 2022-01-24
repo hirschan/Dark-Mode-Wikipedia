@@ -6,13 +6,13 @@ This is a Firefox extension that converts your Wikipedia to dark mode, based on 
 * 2,300+ downloads on Firefox
 
 ## Installation
-Can be added [as an extension to Firefox here](https://addons.mozilla.org/sv-SE/firefox/addon/dark-mode-for-wikipedia/).
+Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
 
 Or:
 1. Download the repository
 2. Open Firefox and paste in the search field: **about:debugging#/runtime/this-firefox**
 3. Press: **Load Temporary Add-on...**
-4. Select the **manifest.json** file
+4. Select **manifest.json**
 
 ## Version history
 See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.md).
@@ -28,6 +28,7 @@ See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.m
 - [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language)#Syntax_and_semantics)
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
 - [X] [Table with colors (element td)](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
+- [X] [Temperature table](https://en.wikipedia.org/wiki/London#Climate)
 - [X] [Factorial images](https://en.wikipedia.org/wiki/Factorial)
 - [X] [Statistics graph](https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg#Statistics)
 - [X] [Progress bars](https://en.wikipedia.org/wiki/2018_Swedish_general_election#Parties)
@@ -47,3 +48,7 @@ See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.m
 - [ ] Fix Wikipedia mainpages for all languages (fr.wikipedia)
 - [ ] Expand dark mode to Wikipedia's sister projects
 - [ ] Refactor background.css
+
+## Buy me a coffee
+Coffee is love, coffee is life ☕
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
