@@ -51,4 +51,5 @@ See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.m
 
 ## Buy me a coffee
 Coffee is love, coffee is life ☕
+
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
