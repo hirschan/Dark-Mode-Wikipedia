@@ -34,6 +34,7 @@ See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.m
 - [X] [Progress bars](https://en.wikipedia.org/wiki/2018_Swedish_general_election#Parties)
 - [X] [Dark cells with white text](https://en.wikipedia.org/wiki/Romania#Religion)
 - [X] [Pie chart](https://en.wikipedia.org/wiki/Wikipedia#Language_editions)
+- [X] [Black text coloring](https://en.wikipedia.org/wiki/Microsoft_PowerPoint#Versions)
 
 ## Wall of Fame
 🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
