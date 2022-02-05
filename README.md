@@ -1,10 +1,10 @@
 # Dark Mode for Wikipedia on Firefox <img src="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
-This is a Firefox extension that converts your Wikipedia to dark mode, based on Github's dark default theme. *This extension is specifically adapted for the English wikipedia domain (en.wikipedia.org).* I am no expert in CSS so please forgive me if the code is messy.
+This is a Firefox extension that converts your Wikipedia to dark mode based on Github's dark default theme. I am no expert in CSS so please forgive me if the code is messy. This extension is suited for the average Wikipedia user and might not be ideal outside of normal activities. *It is also specifically adapted for the English Wikipedia domain (en.wikipedia.org)* 
 
-* Feel free to contribute
+* Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
 * 2,500+ downloads on Firefox
-    * 1,200+ daily users
+    * 1,300+ daily users
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
