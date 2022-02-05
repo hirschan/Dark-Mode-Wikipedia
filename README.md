@@ -3,7 +3,8 @@ This is a Firefox extension that converts your Wikipedia to dark mode, based on 
 
 * Feel free to contribute
 * If you find any issues, please consider creating a pull request
-* 2,300+ downloads on Firefox
+* 2,500+ downloads on Firefox
+    * 1,200+ daily users
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -13,9 +14,6 @@ Or:
 2. Open Firefox and paste in the search field: **about:debugging#/runtime/this-firefox**
 3. Press: **Load Temporary Add-on...**
 4. Select **manifest.json**
-
-## Version history
-See [here](https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/history.md).
 
 ## Screenshot example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshot.png" width="700">
