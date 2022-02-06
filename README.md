@@ -43,6 +43,8 @@ Or:
 
 🏆 Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
 
+🏆 Thank you [sorenss](https://github.com/sorenss) for detecting issue when editing pages
+
 ## Future work
 - [ ] Fix Wikipedia mainpages for all languages (fr.wikipedia)
 - [ ] Expand dark mode to Wikipedia's sister projects
