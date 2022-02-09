@@ -13,45 +13,40 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 
 
 
-/* Dark coloring */
+/* DARK COLORING */
+h1, h2, table, body, th, nav, tbody, li, ul, input, abbr, a, caption, tr, p, dl, blockquote, label, header,
+
+/* Avoid using element "div" only */
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
 div.portal-bar, div.suggestions-result, div.special-label, div.special-query, div.suggestions-special, div.editOptions, div[id*="wikiEditor-ui-toolbar"], div.sidebar-list-title,
 div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"],
-h1, table, body, th, nav, tbody, li, ul, input, abbr, a, caption, tr, p, dl, blockquote,
-div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"],
-div.mw-mmv-above-fold, div.mw-mmv-image-metadata,
-td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, div.thumb,
-td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"],
-td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], div[id*="ooui-php-"], div.mw-prefs-buttons,
-label,
+div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"], div.mw-mmv-above-fold, div.mw-mmv-image-metadata, div.thumb, div[id*="ooui-php-"], div.mw-prefs-buttons,
+div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"], div[style*="display"],
+div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande
 
-/*Danish wiki*/div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"],
-/*German wiki*/ h2, div[class*="hauptseite"], div[style*="display"],
-/*Spanish wiki*/ div[class*="main-top"],
-/*French wiki*/ header, div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"],
-/*Swedish wiki*/ div[id^="edit"], div#deltagande {
+/* Avoid using element "td" only since it will override colors in some tables */
+td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
+td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"],
+td[style^="background:lavender"], td[style*="background-color:#DCDCDC"] {
   background-color: #0d1117 !important;
 }
 
-/* Light grey (text coloring) */
+/* LIGHT GREY TEXT COLORING */
+h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
-div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header,
-div[style*="padding-left"], textarea,
-h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span {
+div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, div[style*="padding-left"] {
   color: #c9d1d9 !important;
 }
 
-/* Dark text coloring on light columns (tables), needs refactoring hardcoded right now */
-td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"],
-td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
-td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b,
-td[style*="background-color:#B0CEFF"], td[style*="background-color:#B0CEFF"]>b,
+/* DARK TEXT COLORING ON TABLES (refactor) */
+td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"], td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
+td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b, td[style*="background-color:#B0CEFF"], td[style*="background-color:#B0CEFF"]>b,
 td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background-color:#DDDDDD"], td[style*="background:#17aa5c"],
 td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], td[style*="background:#fff3f3"], td.included {
    color: #0d1117 !important;
  }
 
-/* Lighter dark blue */
+/* LIGHTER DARK BLUE */
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"],
 th.infobox-above, th.summary, div[id*="ooui-php-498"], span[class*="oo-ui-dropdownWidget-handle"], div[id*="ooui-30"], div[id*="ooui-1"], div[id*="ooui-2"], div[id*="ooui-3"], div[id*="ooui-4"], 
@@ -59,17 +54,17 @@ div[id*="ooui-5"], div[id*="ooui-8"], div[id*="ooui-9"] {
   background-color: #21262d !important;
 }
 
-/* Light blue for clickable text */
+/* LIGHT BLUE (CLICKABLE TEXT) */
 a, .tocnumber, .toctext, label.toctogglelabel {
   color: #58a6ff !important;
 }
 
-/* Light grey background for graphs */
+/* LIGHT GREY BACKGROUND FOR GRAPHS */
 canvas {
   background-color: #c9d1d9 !important;
 }
 
-/* Light grey, mostly used for LateX wiki site & tables */
+/* LATEX LIGHT GREY */
 pre, code, .hll, tr::before {
   background-color: #21262d !important;
   color: #c9d1d9 !important;
@@ -81,25 +76,24 @@ img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Bl
     filter: invert(90%) !important;
 }
 
-/* Dark grey, making icons visible */
+/* DARK GREY BACKGROUND - ICONS VISIBLE */
 [class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
   background-color: #6e7681 !important;
 }
 
-/* Coloring tables with progress bars */
+/* PROGRESS BARS COLORING (TABLES) */
 div[role="img"] {
   background-color: #21262d !important;
 }
 
-/* Solves: white cell with white text (issue #12) */
-/* Solves: https://en.wikipedia.org/wiki/2019_Danish_general_election */
+/* https://en.wikipedia.org/wiki/2019_Danish_general_election */
 td[class^="ib-legis"], td[class^="nowrap"], td[style*="background-color:#eee"] {
   background-color: #0d1117 !important;
 }
 
 
 
-/* Code syntax colors below */
+/* CODE SYNTAX COLORS */
 span.kd, span.kn, a.new {
   color: #FF7B72 !important;
 }
