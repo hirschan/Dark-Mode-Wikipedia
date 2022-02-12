@@ -22,7 +22,8 @@ div.portal-bar, div.suggestions-result, div.special-label, div.special-query, di
 div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"],
 div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"], div.mw-mmv-above-fold, div.mw-mmv-image-metadata, div.thumb, div[id*="ooui-php-"], div.mw-prefs-buttons,
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"], div[style*="display"],
-div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande
+div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande,
+div[class*="oo-ui-layout"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
@@ -91,6 +92,13 @@ td[class^="ib-legis"], td[class^="nowrap"], td[style*="background-color:#eee"] {
   background-color: #0d1117 !important;
 }
 
+/* RED & GREEN COLORS (SUBTRACT AND ADD ICON) */
+span[class*="icon-subtract"] {
+  background-color: #FF7B72 !important;
+}
+span[class*="icon-add"] {
+  background-color: #238636 !important;
+}
 
 
 /* CODE SYNTAX COLORS */
