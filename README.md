@@ -3,8 +3,8 @@ This is a Firefox extension that converts your Wikipedia to dark mode based on G
 
 * Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
-* 2,500+ downloads on Firefox
-    * 1,300+ daily users
+* 2,700+ downloads on Firefox
+    * 1,400+ daily users
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
