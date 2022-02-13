@@ -14,7 +14,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 
 
 /* DARK COLORING */
-h1, h2, table, body, th, nav, tbody, li, ul, input, abbr, a, caption, tr, p, dl, blockquote, label, header,
+h1, h2, table, body, th, nav, tbody, li, ul, input, abbr, a, caption, tr, p, dl, blockquote, label, header, fieldset, legend,
 
 /* Avoid using element "div" only */
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
@@ -22,8 +22,8 @@ div.portal-bar, div.suggestions-result, div.special-label, div.special-query, di
 div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"],
 div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"], div.mw-mmv-above-fold, div.mw-mmv-image-metadata, div.thumb, div[id*="ooui-php-"], div.mw-prefs-buttons,
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"], div[style*="display"],
-div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande,
-div[class*="oo-ui-layout"],
+div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
+div[class*="oo-ui-layout"], div[class*="oo-ui-widget"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
@@ -33,7 +33,7 @@ td[style^="background:lavender"], td[style*="background-color:#DCDCDC"] {
 }
 
 /* LIGHT GREY TEXT COLORING */
-h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea,
+h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, div[style*="padding-left"] {
   color: #c9d1d9 !important;
@@ -72,13 +72,13 @@ pre, code, .hll, tr::before {
 }
 
 /* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
-img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
+img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon, 
 img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"] {
     filter: invert(90%) !important;
 }
 
 /* DARK GREY BACKGROUND - ICONS VISIBLE */
-[class^="oo-ui-icon"], .oo-ui-icon-tray, .oo-ui-icon-bell, #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
+[class*="oo-ui-icon"], #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
   background-color: #6e7681 !important;
 }
 
