@@ -23,7 +23,7 @@ div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-pla
 div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"], div.mw-mmv-above-fold, div.mw-mmv-image-metadata, div.thumb, div[id*="ooui-php-"], div.mw-prefs-buttons,
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"], div[style*="display"],
 div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
-div[class*="oo-ui-layout"], div[class*="oo-ui-widget"],
+div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar,
@@ -33,7 +33,7 @@ td[style^="background:lavender"], td[style*="background-color:#DCDCDC"] {
 }
 
 /* LIGHT GREY TEXT COLORING */
-h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview,
+h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, div[style*="padding-left"] {
   color: #c9d1d9 !important;
