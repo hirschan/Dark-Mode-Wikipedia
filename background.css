@@ -26,17 +26,17 @@ div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_ba
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
-td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context,
+td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context, td[style*="text-align"],
 td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"],
 td[style^="background:lavender"], td[style*="background-color:#DCDCDC"] {
   background-color: #0d1117 !important;
 }
 
 /* LIGHT GREY TEXT COLORING */
-h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset,
+h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, 
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, div[style*="padding-left"],
-div[class*="hlist"] {
+div[class*="hlist"], div[style*="display"] {
   color: #c9d1d9 !important;
 }
 
