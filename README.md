@@ -2,7 +2,8 @@
 This is a Firefox extension that converts your Wikipedia to dark mode based on Github's dark default theme. This extension is suited for the average Wikipedia user and might not be ideal outside of normal activities. *It is specifically adapted for the English Wikipedia domain (en.wikipedia.org).*
 
 This extension also supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - convenient for those who use Wikipedia on a daily basis. Instead of opening a Wikipedia browser and manually search you can now right-click on highlighted text and open in a new Wikipedia tab instantly.
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/quick_search.png" width="350">
+
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/quick_search.png" width="550">
 
 * Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
