@@ -1,10 +1,13 @@
 # Dark Mode for Wikipedia on Firefox <img src="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
-This is a Firefox extension that converts your Wikipedia to dark mode based on Github's dark default theme. I am no expert in CSS so please forgive me if the code is messy. This extension is suited for the average Wikipedia user and might not be ideal outside of normal activities. *It is also specifically adapted for the English Wikipedia domain (en.wikipedia.org)* 
+This is a Firefox extension that converts your Wikipedia to dark mode based on Github's dark default theme. This extension is suited for the average Wikipedia user and might not be ideal outside of normal activities. *It is specifically adapted for the English Wikipedia domain (en.wikipedia.org).*
+
+This extension also supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - convenient for those who use Wikipedia on a daily basis. Instead of opening a Wikipedia browser and manually search you can now right-click on highlighted text and open in a new Wikipedia tab instantly.
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/quick_search.png" width="350">
 
 * Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
 * 2,900+ downloads on Firefox
-    * 1,400+ daily users
+    * 1,450+ daily users
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -15,10 +18,10 @@ Or:
 3. Press: **Load Temporary Add-on...**
 4. Select **manifest.json**
 
-## Screenshot example
+## Screenshot
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshot.png" width="700">
 
-## Wiki checklist before releases
+## Checklist before releases
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
 - [X] [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX#How_it_works)
@@ -48,7 +51,6 @@ Or:
 ## Future work
 - [ ] Fix Wikipedia mainpages for all languages (fr.wikipedia)
 - [ ] Expand dark mode to Wikipedia's sister projects
-- [ ] Refactor background.css
 
 ## Buy me a coffee
 Coffee is love, coffee is life ☕

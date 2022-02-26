@@ -2,17 +2,27 @@
   "manifest_version": 2,
   "name": "Dark Mode for Wikipedia",
   "version": "4.1.1",
-
+  "default_locale": "en",
   "description": "Wikipedia Dark Theme",
 
   "icons": {
     "48": "dark_wiki_icon.png"
   },
 
+  "permissions": ["menus", "activeTab", "tabs"],
+
   "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js":["contentScript.js"]
+    },
     {
       "matches": ["*://*.wikipedia.org/*"],
       "css": ["background.css"]
     }
-  ]
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
