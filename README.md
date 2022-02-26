@@ -4,7 +4,7 @@ This is a Firefox extension that converts your Wikipedia to dark mode based on G
 * *It is specifically adapted for the English Wikipedia domain (en.wikipedia.org).*
 * It also supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - convenient for those who use Wikipedia on a daily basis. You can now highlight text, right-click and search on Wikipedia, see example below.
 
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/quick_search.png" width="500">
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="500">
 
 * Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
@@ -21,7 +21,7 @@ Or:
 4. Select **manifest.json**
 
 ## Screenshot
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshot.png" width="450">
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot.png" width="450">
 
 ## Checklist before releases
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
