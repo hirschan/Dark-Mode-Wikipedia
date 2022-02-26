@@ -84,7 +84,7 @@ img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Bl
 }
 
 /* PROGRESS BARS COLORING (TABLES) */
-div[role="img"] {
+div[role="img"], td.table-maybe {
   background-color: #21262d !important;
 }
 
@@ -94,11 +94,11 @@ td[class^="ib-legis"], td[class^="nowrap"], td[style*="background-color:#eee"] {
 }
 
 /* RED & GREEN COLORS (SUBTRACT AND ADD ICON) */
-span[class*="icon-subtract"] {
-  background-color: #FF7B72 !important;
+span[class*="icon-subtract"], td.table-no {
+  background-color: #e75d53 !important;
 }
-span[class*="icon-add"] {
-  background-color: #238636 !important;
+span[class*="icon-add"], td.table-yes {
+  background-color: #46a559 !important;
 }
 
 
