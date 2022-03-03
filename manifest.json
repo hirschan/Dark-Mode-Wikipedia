@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dark Mode for Wikipedia",
-  "version": "4.1.2",
+  "version": "4.1.3",
   "default_locale": "en",
   "description": "Wikipedia Dark Theme",
 
@@ -17,6 +17,7 @@
       "js":["contentScript.js"]
     },
     {
+      "run_at": "document_start",
       "matches": ["*://*.wikipedia.org/*"],
       "css": ["background.css"]
     }

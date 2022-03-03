@@ -8,7 +8,7 @@ This is a Firefox extension that converts your Wikipedia to dark mode based on G
 
 * Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
-* 2,900+ downloads on Firefox
+* 3,000+ downloads on Firefox
     * 1,450+ daily users
 
 ## Installation
@@ -28,7 +28,6 @@ Or:
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
 - [X] [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX#How_it_works)
 - [X] [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
-- [X] [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language)#Syntax_and_semantics)
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
 - [X] [Table with colors (element td)](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
 - [X] [Temperature table](https://en.wikipedia.org/wiki/London#Climate)
@@ -52,7 +51,7 @@ Or:
 🏆 Thank you [sorenss](https://github.com/sorenss) for detecting issue when editing pages
 
 ## Future work 🚀
-- [ ] Fix Wikipedia mainpages for all languages (fr.wikipedia)
+- [ ] Fix Wikipedia mainpages for other languages
 - [ ] Expand dark mode to Wikipedia's sister projects
 
 ## Buy me a coffee
