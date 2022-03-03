@@ -1,15 +1,25 @@
-# Dark Mode for Wikipedia on Firefox <img src="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon.png" width="25" height="25">
-This is a Firefox extension that converts your Wikipedia to dark mode based on Github's dark default theme. 
-* This extension is suited for the average Wikipedia user and might not be ideal outside of normal activities. 
-* *It is specifically adapted for the English Wikipedia domain (en.wikipedia.org).*
-* It also supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - convenient for those who use Wikipedia on a daily basis. You can now highlight text, right-click and search on Wikipedia, see example below.
+<p align="center">
+  <img src="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/dark_wiki_icon_large.png" width="150"/>
+</p>
 
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="250">
+<h3 align="center">Dark Mode for Wikipedia on Firefox</h3>
+<p align="center">
+Based on Github's dark default theme
+</p>
 
+<p align="center">
+<img src="https://img.shields.io/amo/users/dark-mode-for-wikipedia"/> <img src="https://img.shields.io/amo/dw/dark-mode-for-wikipedia"/> <img src="https://img.shields.io/github/issues/hirschan/Dark-Mode-Wikipedia"/>
+</p>
+
+# About
+* Suited for the average Wikipedia user and might not be ideal outside of normal activities. 
+* *Specifically adapted for the English Wikipedia domain (en.wikipedia.org).*
+* Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
 * Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
-* 3,000+ downloads on Firefox
-    * 1,450+ daily users
+* 3,000+ downloads on Firefox (in total)
+
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="280">
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
