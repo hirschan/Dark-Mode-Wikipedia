@@ -4,8 +4,10 @@
 
 <h3 align="center">Dark Mode for Wikipedia on Firefox</h3>
 <p align="center">
-Based on Github's dark default theme
+Based on Github's dark default theme.
+<a href="https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/"><strong>Download »</strong></a>
 </p>
+
 
 <p align="center">
 <img src="https://img.shields.io/amo/users/dark-mode-for-wikipedia"/> <img src="https://img.shields.io/amo/dw/dark-mode-for-wikipedia"/> <img src="https://img.shields.io/github/issues/hirschan/Dark-Mode-Wikipedia"/>
