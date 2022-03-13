@@ -19,7 +19,7 @@ Based on Github's dark default theme.
 * Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
 * Feel free to contribute since this project is continuously worked upon and improved
 * If you find any issues, please consider creating a pull request
-* 3,000+ downloads on Firefox (in total)
+* 3,200+ downloads on Firefox (in total)
 
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="280">
 
