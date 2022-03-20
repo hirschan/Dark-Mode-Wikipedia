@@ -17,8 +17,7 @@ Based on Github's dark default theme.
 * Suited for the average Wikipedia user and might not be ideal outside of normal activities. 
 * *Specifically adapted for the English Wikipedia domain (en.wikipedia.org).*
 * Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
-* Feel free to contribute since this project is continuously worked upon and improved
-* If you find any issues, please consider creating a pull request
+* If you find any issues, [submit here](https://forms.gle/RTg4FdLmSqCjxgty8) or create a pull request
 * 3,200+ downloads on Firefox (in total)
 
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="280">
