@@ -18,8 +18,6 @@ This Firefox extension is suited for the average Wikipedia user. It is specifica
 * If you find any issues, [submit here](https://forms.gle/RTg4FdLmSqCjxgty8) or create a pull request
 * 3,200+ downloads on Firefox (in total)
 
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="280">
-
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
 
@@ -30,7 +28,7 @@ Or:
 4. Select **manifest.json**
 
 ## Example
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600"> <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="240">
 
 ## Checklist before releases
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
