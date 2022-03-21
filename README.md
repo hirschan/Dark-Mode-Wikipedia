@@ -14,8 +14,7 @@ Based on Github's dark default theme.
 </p>
 
 # About
-This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the English Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
-* Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
+This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the English Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities. Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
 * If you find any issues, [submit here](https://forms.gle/RTg4FdLmSqCjxgty8) or create a pull request
 * 3,200+ downloads on Firefox (in total)
 
@@ -60,11 +59,10 @@ Or:
 
 🏆 Thank you [sorenss](https://github.com/sorenss) for detecting issue when editing pages
 
-## Future work 🚀
-- [ ] Fix Wikipedia mainpages for other languages
-- [ ] Expand dark mode to Wikipedia's sister projects
+## Future ideas 🚀
+- [ ] Wikipedia dark mode for German
+- [ ] Wikipedia dark mode for French
+- [ ] Expand dark mode to Wikipedia's sister projects?
 
-## Buy me a coffee
-Coffee is love, coffee is life ☕
-
+## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
