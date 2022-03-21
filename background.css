@@ -127,3 +127,8 @@ span[class^="s"], span.nn, span.c, span.nv {
 span.c1, span.cm, td.table-partial, span.o, span.mi, span.mf, span.fm {
   color: #b2b4b6 !important;
 }
+
+
+a.mw-wiki-logo {
+  content: url("https://raw.githubusercontent.com/hirschan/Dark-Mode-Wikipedia/master/dark_wiki_icon_large.png");
+}

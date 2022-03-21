@@ -14,8 +14,7 @@ Based on Github's dark default theme.
 </p>
 
 # About
-* Suited for the average Wikipedia user and might not be ideal outside of normal activities. 
-* *Specifically adapted for the English Wikipedia domain (en.wikipedia.org).*
+This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the English Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
 * Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
 * If you find any issues, [submit here](https://forms.gle/RTg4FdLmSqCjxgty8) or create a pull request
 * 3,200+ downloads on Firefox (in total)
@@ -31,8 +30,8 @@ Or:
 3. Press: **Load Temporary Add-on...**
 4. Select **manifest.json**
 
-## Screenshot
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot.png" width="600">
+## Example
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
 
 ## Checklist before releases
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
