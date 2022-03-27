@@ -16,7 +16,7 @@ Based on Github's dark default theme.
 # About
 This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the English Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities. Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
 * If you find any issues, [submit here](https://forms.gle/RTg4FdLmSqCjxgty8) or create a pull request
-* 3,200+ downloads on Firefox (in total)
+* 3,400+ downloads on Firefox (in total)
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -30,7 +30,7 @@ Or:
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600"> <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="240">
 
-## Checklist before releases
+## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
 - [X] [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX#How_it_works)
@@ -46,16 +46,12 @@ Or:
 - [X] [Black text coloring](https://en.wikipedia.org/wiki/Microsoft_PowerPoint#Versions)
 - [X] [Red green table coloring](https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations)
 
-## Wall of Fame
-🏆 Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
-
-🏆 Thank you [Mounster-Chef](https://github.com/Mounster-Chef) for finding issue with code syntax and discovering overriding colors in tables
-
-🏆 Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
-
-🏆 Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
-
-🏆 Thank you [sorenss](https://github.com/sorenss) for detecting issue when editing pages
+## Wall of Fame 🏆
+* Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
+* Thank you [Mounster-Chef](https://github.com/Mounster-Chef) for finding issue with code syntax and discovering overriding colors in tables
+* Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
+* Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
+* Thank you [sorenss](https://github.com/sorenss) for detecting issue when editing pages
 
 ## Future ideas 🚀
 - [ ] Wikipedia dark mode for German
