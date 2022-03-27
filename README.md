@@ -27,6 +27,14 @@ Or:
 3. Press: **Load Temporary Add-on...**
 4. Select **manifest.json**
 
+## Accesses
+This extension requires **two** accesses:
+
+| Type of access | Description |
+|---|---|
+| _Access data for all websites_ | In order to use the [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) function this extension needs to know what text you are highlighting on any given website. Highlighted text is being accessed from `contentScript.js` and sends it as a variable to `background.js` to process. |
+| _Access browser tabs_ | `background.js` needs to access browser tabs in order to open a new Wikipedia tab when using the [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) function. |
+
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600"> <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="240">
 
