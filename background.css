@@ -14,7 +14,8 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 
 /* DARK COLORING */
 h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/Talk"], a[href*="/w/index.php?title=Talk:"], a[accesskey], 
-li.mw-tag-AWB,
+li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
+span[style*="background:#FFEC8B;"], button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
 /* Avoid using element "div" only */
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
@@ -24,7 +25,8 @@ div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"], div.mw
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"], div[style*="display"],
 div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
-div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"],
+div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
+div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], a.oo-ui-buttonElement-button,
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context, td[style*="text-align"],
@@ -36,8 +38,7 @@ td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[styl
 /* LIGHT GREY TEXT COLORING */
 h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
-div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, div[style*="padding-left"],
-div[class*="hlist"], div[style*="display"] {
+div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header {
   color: #c9d1d9 !important;
 }
 
@@ -47,10 +48,12 @@ td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b, 
 td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background-color:#DDDDDD"], td[style*="background:#17aa5c"],
 td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], td[style*="background:#fff3f3"], td.included, td[style*="background:pink"],
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
-td[style*="background:#9cc"], td[style*="background:#fff"],
+td[style*="background:#9cc"], td[style*="background:#fff"], td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcolor="#f9f8bb"] > b, td[bgcolor="#fad45d"] > b,
+td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b,
 
 /* Listong colors of climate tables, see London#Climate on Wiki as example */
-td[style*="color:#000000"], td[style*="background: #FF1800"], td[style*="background: #FF1700"]
+td[style*="color:#000000"], td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
+td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b
 {
    color: #0d1117 !important;
  }
@@ -91,7 +94,7 @@ img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Bl
 }
 
 /* PROGRESS BARS COLORING (TABLES) */
-div[role="img"], td.table-maybe {
+div[role="img"] {
   background-color: #21262d !important;
 }
 
@@ -101,17 +104,20 @@ td[class^="ib-legis"], td[class^="nowrap"], td[style*="background-color:#eee"] {
 }
 
 /* RED & GREEN COLORS (SUBTRACT AND ADD ICON) */
-span[class*="icon-subtract"], td.table-no {
+span[class*="icon-subtract"] {
   background-color: #e75d53 !important;
 }
-span[class*="icon-add"], td.table-yes {
+span[class*="icon-add"] {
   background-color: #46a559 !important;
 }
 
 
 /* CODE SYNTAX COLORS */
-span.kd, span.kn, a.new {
+span.kd, span.kn, a.new, td.table-no {
   color: #FF7B72 !important;
+}
+td.table-yes {
+  color: #46a559 !important;
 }
 span.na, span.k, span.nb, span.kr, span.vg {
   color: #FFA657 !important;

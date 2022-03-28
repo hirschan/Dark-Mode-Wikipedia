@@ -30,7 +30,7 @@ Or:
 ## Accesses
 This extension requires **two** accesses:
 
-| Type of access | Description |
+| Access | Description |
 |---|---|
 | _Access data for all websites_ | In order to use the [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) function this extension needs to know what text you are highlighting on any given website. Highlighted text is being accessed from `contentScript.js` and sends it as a variable to `background.js` to process. |
 | _Access browser tabs_ | `background.js` needs to access browser tabs in order to open a new Wikipedia tab when using the [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) function. |
@@ -41,17 +41,12 @@ This extension requires **two** accesses:
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
-- [X] [LaTeX formatting](https://en.wikipedia.org/wiki/LaTeX#How_it_works)
-- [X] [Mathematical formulas](https://en.wikipedia.org/wiki/Fraction)
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
 - [X] [Table with colors (element td)](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
 - [X] [Temperature table](https://en.wikipedia.org/wiki/London#Climate)
-- [X] [Factorial images](https://en.wikipedia.org/wiki/Factorial)
-- [X] [Statistics graph](https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg#Statistics)
+- [X] [Coloring on table](https://en.wikipedia.org/wiki/Democracy_Index#By_region)
 - [X] [Progress bars](https://en.wikipedia.org/wiki/2018_Swedish_general_election#Parties)
-- [X] [Dark cells with white text](https://en.wikipedia.org/wiki/Romania#Religion)
 - [X] [Pie chart](https://en.wikipedia.org/wiki/Wikipedia#Language_editions)
-- [X] [Black text coloring](https://en.wikipedia.org/wiki/Microsoft_PowerPoint#Versions)
 - [X] [Red green table coloring](https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations)
 
 ## Wall of Fame 🏆
