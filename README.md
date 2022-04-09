@@ -16,7 +16,7 @@ Based on Github's dark default theme.
 # About
 This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the English Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities. Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
 * If you find any issues, [submit here](https://forms.gle/RTg4FdLmSqCjxgty8) or create a pull request
-* 3,400+ downloads on Firefox (in total)
+* 3,600+ downloads on Firefox (in total)
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -55,11 +55,6 @@ This extension requires **two** accesses:
 * Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
 * Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
 * Thank you [sorenss](https://github.com/sorenss) for detecting issue when editing pages
-
-## Future ideas 🚀
-- [ ] Wikipedia dark mode for German
-- [ ] Wikipedia dark mode for French
-- [ ] Expand dark mode to Wikipedia's sister projects?
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
