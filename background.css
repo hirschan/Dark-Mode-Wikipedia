@@ -13,7 +13,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 
 
 /* DARK COLORING */
-h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/Talk"], a[href*="/w/index.php?title=Talk:"], a[accesskey], 
+h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span[style*="background:#FFEC8B;"], button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
@@ -29,8 +29,8 @@ div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], di
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], a.oo-ui-buttonElement-button, div[id="sisterproject"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
-td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context, td[style*="text-align"],
-td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"], td.sidebar-pretitle,
+td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context, td[style*="text-align"], td[style="background:#D4F7D4"], 
+td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"], td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"],
 td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[bgcolor*="dddddd"] {
   background-color: #0d1117 !important;
 }
@@ -72,7 +72,7 @@ a, .tocnumber, .toctext, label.toctogglelabel, span.toctext i {
 }
 
 /* LIGHT GREY BACKGROUND FOR GRAPHS */
-canvas {
+canvas, a[href*="/wiki/Special:Notifications"] {
   background-color: #c9d1d9 !important;
 }
 
