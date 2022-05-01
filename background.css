@@ -26,7 +26,7 @@ div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"]
 div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
 div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
-div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], a.oo-ui-buttonElement-button, div[id="sisterproject"],
+div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context, td[style*="text-align"], td[style="background:#D4F7D4"], 
@@ -72,7 +72,7 @@ a, .tocnumber, .toctext, label.toctogglelabel, span.toctext i {
 }
 
 /* LIGHT GREY BACKGROUND FOR GRAPHS */
-canvas, a[href*="/wiki/Special:Notifications"] {
+canvas, a.oo-ui-icon-bell, a.oo-ui-icon-tray {
   background-color: #c9d1d9 !important;
 }
 
