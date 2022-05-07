@@ -14,9 +14,9 @@ Based on Github's dark default theme.
 </p>
 
 # About
-This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the English Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities. Supports [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) - highlight text from any website, right-click and search on Wikipedia instantly!
+This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the **English** Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
 * If you find any issues, [submit here](https://forms.gle/RTg4FdLmSqCjxgty8) or create a pull request
-* 3,700+ downloads on Firefox (in total)
+* 4,000+ downloads on Firefox
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -27,16 +27,8 @@ Or:
 3. Press: **Load Temporary Add-on...**
 4. Select **manifest.json**
 
-## Accesses
-This extension requires **two** accesses:
-
-| Access | Description |
-|---|---|
-| _Access data for all websites_ | In order to use the [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) function this extension needs to know what text you are highlighting on any given website. Highlighted text is being accessed from `contentScript.js` and sends it as a variable to `background.js` to process. |
-| _Access browser tabs_ | `background.js` needs to access browser tabs in order to open a new Wikipedia tab when using the [quick search](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/18) function. |
-
 ## Example
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600"> <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/quick_search.png" width="240">
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
 
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
