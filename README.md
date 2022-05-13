@@ -30,7 +30,7 @@ Or:
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
 
-## Supported langauges
+## Supported languages
 🇬🇧 English
 
 🇩🇪 German
