@@ -30,6 +30,11 @@ Or:
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
 
+## Supported langauges
+🇬🇧 English
+
+🇩🇪 German
+
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)

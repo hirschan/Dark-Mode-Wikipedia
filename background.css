@@ -42,27 +42,29 @@ div.suggestions-result, div.special-label, div.suggestions-special, div.special-
   color: #c9d1d9 !important;
 }
 
-/* DARK TEXT COLORING ON TABLES */
-td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"], td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
-td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b, td[style*="background-color:#B0CEFF"], td[style*="background-color:#B0CEFF"]>b,
-td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background-color:#DDDDDD"], td[style*="background:#17aa5c"],
+/* DARK TEXT ON COLORED TABLES */
+td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background:#17aa5c"],
 td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], td[style*="background:#fff3f3"], td.included, td[style*="background:pink"],
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
-td[style*="background:#9cc"], td[style*="background:#fff"], td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcolor="#f9f8bb"] > b, td[bgcolor="#fad45d"] > b,
-td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b, td[bgcolor="FFD700"], td[bgcolor="silver"], td[bgcolor="gold"], td[bgcolor="cc9966"],
+td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"], td[style*="background:salmon"],
+td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
+td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"],
 
-/* Listong colors of climate tables, see London#Climate on Wiki as example */
-td[style*="color:#000000"], td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
-td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[bgcolor*="#6bd2df"] > b
+td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"], td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
+td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b, td[style*="background-color:#B0CEFF"], td[style*="background-color:#B0CEFF"]>b,
+td[style*="background-color:#DDDDDD"], td[style*="color:#000000"],
+
+td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcolor="#f9f8bb"] > b, td[bgcolor="#fad45d"] > b,
+td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b, td[bgcolor="FFD700"], td[bgcolor="silver"], td[bgcolor="gold"], td[bgcolor="cc9966"], td[bgcolor*="#6bd2df"] > b
 {
    color: #0d1117 !important;
  }
 
 /* LIGHTER DARK BLUE */
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea,
-span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"],
+span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
 th.infobox-above, th.summary, div[id*="ooui-php-498"], span[class*="oo-ui-dropdownWidget-handle"], div[id*="ooui-30"], div[id*="ooui-1"], div[id*="ooui-2"], div[id*="ooui-3"], div[id*="ooui-4"], 
-div[id*="ooui-5"], div[id*="ooui-8"], div[id*="ooui-9"], td[style*="background:#f0f0f0"], div.quotebox-title {
+div[id*="ooui-5"], div[id*="ooui-8"], div[id*="ooui-9"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"] {
   background-color: #21262d !important;
 }
 
