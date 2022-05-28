@@ -31,7 +31,8 @@ div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="dis
 /* Avoid using element "td" only since it will override colors in some tables */
 td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context, td[style*="text-align"], td[style="background:#D4F7D4"], 
 td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"], td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"],
-td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[bgcolor*="dddddd"] {
+td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[bgcolor*="dddddd"], td[style*="background: #ffbb"], td[bgcolor*="light"],
+td[bgcolor*="yellow"], td[bgcolor*="skyblue"] {
   background-color: #0d1117 !important;
 }
 
@@ -48,7 +49,7 @@ td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="bac
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
 td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"], td[style*="background:salmon"],
 td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
-td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"],
+td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"], td[bgcolor*="white"],
 
 td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"], td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
 td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b, td[style*="background-color:#B0CEFF"], td[style*="background-color:#B0CEFF"]>b,
