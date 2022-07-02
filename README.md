@@ -45,6 +45,7 @@ Or:
 - [X] [Progress bars](https://en.wikipedia.org/wiki/2018_Swedish_general_election#Parties)
 - [X] [Pie chart](https://en.wikipedia.org/wiki/Wikipedia#Language_editions)
 - [X] [Red green table coloring](https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations)
+- [X] [Element "span" grey coloring](https://en.wikipedia.org/wiki/Affricate)
 
 ## Wall of Fame 🏆
 * Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring

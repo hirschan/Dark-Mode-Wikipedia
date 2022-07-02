@@ -12,7 +12,7 @@ CSS attributes & values: [attribute="value"]
 Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 
 
-/* DARK COLORING */
+/* DARK BACKGROUND COLORING */
 h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span[style*="background:#FFEC8B;"], button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
@@ -34,6 +34,10 @@ td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.side
 td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"], td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"],
 td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[bgcolor*="dddddd"], td[style*="background: #ffbb"], td[bgcolor*="light"],
 td[bgcolor*="yellow"], td[bgcolor*="skyblue"], td[style*="background-color: #9fe"], td[style*="background:#efefef"],
+
+/*https://en.wikipedia.org/wiki/Kaliningrad_Oblast*/
+tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]),
+
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"])  {
   background-color: #0d1117 !important;
 }
@@ -45,7 +49,7 @@ div.suggestions-result, div.special-label, div.suggestions-special, div.special-
   color: #c9d1d9 !important;
 }
 
-/* DARK TEXT ON COLORED TABLES */
+/* DARK TEXT COLORING ON TABLES */
 td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background:#17aa5c"],
 td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], td[style*="background:#fff3f3"], td.included, td[style*="background:pink"],
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
@@ -60,12 +64,13 @@ td[style*="background-color:#DDDDDD"], td[style*="color:#000000"],
 td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcolor="#f9f8bb"] > b, td[bgcolor="#fad45d"] > b,
 td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b, td[bgcolor="FFD700"], td[bgcolor="silver"], td[bgcolor="gold"], td[bgcolor="cc9966"], td[bgcolor*="#6bd2df"] > b,
 
-/*Periodic table: https://en.wikipedia.org/wiki/Mineral_(nutrient)*/
-span[title] {
+/*https://en.wikipedia.org/wiki/Mineral_(nutrient)*/
+td[style] > span
+ {
    color: #0d1117 !important;
  }
 
-/* LIGHTER DARK BLUE */
+/* LIGHTER DARK BLUE BACKGROUND COLORING */
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
 th.infobox-above, th.summary, div[id*="ooui-php-498"], span[class*="oo-ui-dropdownWidget-handle"], div[id*="ooui-30"], div[id*="ooui-1"], div[id*="ooui-2"], div[id*="ooui-3"], div[id*="ooui-4"], 
