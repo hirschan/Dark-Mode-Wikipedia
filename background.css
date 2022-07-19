@@ -27,13 +27,19 @@ div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_ba
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
 div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
-div.mw-kartographer-attribution,
+div.mw-kartographer-attribution, div[class*="side-box"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
-td.infobox-subheader, td.MainPageBG, td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td.diff-context, td[style*="text-align"], td[style="background:#D4F7D4"], 
-td.navbox-abovebelow, td.infobox-below, td.sidebar-content, td.plainlist, td.navbox-group, td[class*="navbox"], td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"],
-td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[bgcolor*="dddddd"], td[style*="background: #ffbb"], td[bgcolor*="light"],
-td[bgcolor*="yellow"], td[bgcolor*="skyblue"], td[style*="background-color: #9fe"], td[style*="background:#efefef"],
+td[bgcolor*="dddddd"], td[bgcolor*="light"], td[bgcolor*="yellow"], td[bgcolor*="skyblue"],
+td[class*="navbox"],
+td.diff-context,
+td.infobox-subheader, td.infobox-below,
+td.MainPageBG, 
+td.navbox-group, td.navbox-abovebelow,
+td.plainlist,
+td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td[style*="text-align"], td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
+td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"],
+td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], 
 
 /*https://en.wikipedia.org/wiki/Kaliningrad_Oblast*/
 tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]),
@@ -43,7 +49,7 @@ td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [sty
 }
 
 /* LIGHT GREY TEXT COLORING */
-h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div,
+h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header {
   color: #c9d1d9 !important;
@@ -71,7 +77,7 @@ td[style] > span
  }
 
 /* LIGHTER DARK BLUE BACKGROUND COLORING */
-.mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea,
+.mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
 th.infobox-above, th.summary, div[id*="ooui-php-498"], span[class*="oo-ui-dropdownWidget-handle"], div[id*="ooui-30"], div[id*="ooui-1"], div[id*="ooui-2"], div[id*="ooui-3"], div[id*="ooui-4"], 
 div[id*="ooui-5"], div[id*="ooui-8"], div[id*="ooui-9"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"] {
@@ -95,7 +101,7 @@ pre, code, .hll, tr::before {
 }
 
 /* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
-img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon, 
+img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
 img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"], a[href*="/wiki/Special:Preferences#mw-prefsection-rendering"] {
     filter: invert(90%) !important;
 }
