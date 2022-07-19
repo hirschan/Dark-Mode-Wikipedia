@@ -50,10 +50,9 @@ Or:
 
 ## Wall of Fame 🏆
 * Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
-* Thank you [Mounster-Chef](https://github.com/Mounster-Chef) for finding issue with code syntax and discovering overriding colors in tables
 * Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
 * Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
-* Thank you [sorenss](https://github.com/sorenss) for detecting issue when editing pages
+* Thank you [sorenss](https://github.com/sorenss), [Mounster-Chef](https://github.com/Mounster-Chef), [megapump](https://github.com/megagrump) and [HanatakeYurii ](https://github.com/HanatakeYurii) for finding issues
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
