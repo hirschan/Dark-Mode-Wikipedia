@@ -27,24 +27,22 @@ div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_ba
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
 div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
-div.mw-kartographer-attribution, div[class*="side-box"],
+div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
-td[bgcolor*="dddddd"], td[bgcolor*="light"], td[bgcolor*="yellow"], td[bgcolor*="skyblue"],
+td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
 td[class*="navbox"],
-td.diff-context,
-td.infobox-subheader, td.infobox-below,
-td.MainPageBG, 
-td.navbox-group, td.navbox-abovebelow,
-td.plainlist,
-td.sidebar-above, td.sidebar-below, td.sidebar-navbar, td[style*="text-align"], td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
-td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"],
+td:is(.diff-context, .infobox-subheader, .infobox-below, .MainPageBG, .navbox-group, .navbox-abovebelow, .plainlist, .sidebar-above, .sidebar-below, .sidebar-navbar), 
+td[style*="text-align"], td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
+td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], 
 td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], 
 
 /*https://en.wikipedia.org/wiki/Kaliningrad_Oblast*/
 tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]),
 
-td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"])  {
+td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
+
+span[class*="flaggedrevs-"] {
   background-color: #0d1117 !important;
 }
 
@@ -56,11 +54,15 @@ div.suggestions-result, div.special-label, div.suggestions-special, div.special-
 }
 
 /* DARK TEXT COLORING ON TABLES */
+td[class*="charts-nxa"] > span, td[class*="charts"],
+
 td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background:#17aa5c"],
-td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], td[style*="background:#fff3f3"], td.included, td[style*="background:pink"],
+td:is([style*="background:#FFCDCC"], [style*="background:#CCDCFF"]) > b, td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], 
+td[style*="background:#fff3f3"], td.included, td[style*="background:pink"],
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
-td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"], td[style*="background:salmon"],
-td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
+td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"], 
+td[style*="background:#FEDF09"], td[style*="background:#019CDB"], td[style*="background:#ED1B34"],
+td[style*="background:salmon"], td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
 td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"], td[bgcolor*="white"],
 
 td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"], td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
@@ -71,7 +73,9 @@ td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcol
 td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b, td[bgcolor="FFD700"], td[bgcolor="silver"], td[bgcolor="gold"], td[bgcolor="cc9966"], td[bgcolor*="#6bd2df"] > b,
 
 /*https://en.wikipedia.org/wiki/Mineral_(nutrient)*/
-td[style] > span
+td[style] > span,
+
+span[class*="charts-n"]
  {
    color: #0d1117 !important;
  }
@@ -79,8 +83,7 @@ td[style] > span
 /* LIGHTER DARK BLUE BACKGROUND COLORING */
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
-th.infobox-above, th.summary, div[id*="ooui-php-498"], span[class*="oo-ui-dropdownWidget-handle"], div[id*="ooui-30"], div[id*="ooui-1"], div[id*="ooui-2"], div[id*="ooui-3"], div[id*="ooui-4"], 
-div[id*="ooui-5"], div[id*="ooui-8"], div[id*="ooui-9"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"] {
+th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"] {
   background-color: #21262d !important;
 }
 
@@ -90,7 +93,7 @@ a, .tocnumber, .toctext, label.toctogglelabel, span.toctext i {
 }
 
 /* LIGHT GREY BACKGROUND FOR GRAPHS */
-canvas, a.oo-ui-icon-bell, a.oo-ui-icon-tray {
+canvas {
   background-color: #c9d1d9 !important;
 }
 
@@ -102,23 +105,25 @@ pre, code, .hll, tr::before {
 
 /* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
 img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
-img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"], a[href*="/wiki/Special:Preferences#mw-prefsection-rendering"] {
+img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"], a[href*="/wiki/Special:Preferences#mw-prefsection-rendering"],
+img[src*="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/12px-Loudspeaker.svg.png"] {
     filter: invert(90%) !important;
 }
 
-/* DARK GREY BACKGROUND - ICONS VISIBLE */
-[class*="oo-ui-icon"], #searchButton, .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary {
-  background-color: #6e7681 !important;
+/* DARK GREY BACKGROUND - ICONS & BUTTONS VISIBLE */
+.mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary, a.oo-ui-icon-bell, a.oo-ui-icon-tray,
+span[class*="oo-ui-dropdownWidget-handle"], div.oo-ui-popupWidget-head, a.oo-ui-buttonElement-button {
+  background-color: #21262d !important;
+}
+
+/*TODO: fix bell icons add here brighter*/
+#searchButton {
+  background-color:#b2b4b6 !important;
 }
 
 /* PROGRESS BARS COLORING (TABLES) */
 div[role="img"] {
   background-color: #21262d !important;
-}
-
-/* https://en.wikipedia.org/wiki/2019_Danish_general_election */
-td[class^="ib-legis"], td[class^="nowrap"], td[style*="background-color:#eee"] {
-  background-color: #0d1117 !important;
 }
 
 /* RED & GREEN COLORS (SUBTRACT AND ADD ICON) */
@@ -129,27 +134,30 @@ span[class*="icon-add"] {
   background-color: #46a559 !important;
 }
 
-
 /* CODE SYNTAX COLORS */
-span.kd, span.kn, a.new, td.table-no {
+a.new, 
+td.table-no,
+span:is(.kd, .kn) {
   color: #FF7B72 !important;
 }
 td.table-yes {
   color: #46a559 !important;
 }
-span.na, span.k, span.nb, span.kr, span.vg {
+span:is(.na, .k, .nb, .kr, .vg) {
   color: #FFA657 !important;
 }
-span.linenos, td.table-na, td.no.table-no2 {
+td:is(.table-na, .no.table-no2),
+span.linenos {
   background-color: #0d1117 !important;
 }
-span.nc, span.nf, span.kt {
+span:is(.nc, .nf, .kt) {
   color: #D2A6D7 !important;
 }
-span[class^="s"], span.nn, span.c, span.nv {
+span[class^="s"], span:is(.nn, .c, .nv) {
   color: #A5D6FF !important;
 }
-span.c1, span.cm, td.table-partial, span.o, span.mi, span.mf, span.fm {
+td.table-partial, 
+span:is(.c1, .cm, .o, .mi, .mf, .fm) {
   color: #b2b4b6 !important;
 }
 
