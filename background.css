@@ -15,7 +15,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 /* DARK BACKGROUND COLORING */
 h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
-span[style*="background:#FFEC8B;"], button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
+span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
 /* Avoid using element "div" only */
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
@@ -28,19 +28,21 @@ div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[c
 div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
 div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
+div[class*="responsive-license"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
 td[class*="navbox"],
 td:is(.diff-context, .infobox-subheader, .infobox-below, .MainPageBG, .navbox-group, .navbox-abovebelow, .plainlist, .sidebar-above, .sidebar-below, .sidebar-navbar), 
 td[style*="text-align"], td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
-td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], 
-td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], 
+td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
+td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
+td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
+
+th[colspan] > span, 
 
 /*https://en.wikipedia.org/wiki/Kaliningrad_Oblast*/
-tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]),
-
-td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
+tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]), tr[class] > td,
 
 span[class*="flaggedrevs-"] {
   background-color: #0d1117 !important;
@@ -49,7 +51,8 @@ span[class*="flaggedrevs-"] {
 /* LIGHT GREY TEXT COLORING */
 h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
-div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header {
+div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, 
+td[class] > span[style*="white-space"] {
   color: #c9d1d9 !important;
 }
 
@@ -83,7 +86,9 @@ span[class*="charts-n"]
 /* LIGHTER DARK BLUE BACKGROUND COLORING */
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
-th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"] {
+th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"],
+/*Buttons*/
+a[class*="mw-ui-button"] {
   background-color: #21262d !important;
 }
 
@@ -134,13 +139,13 @@ span[class*="icon-add"] {
   background-color: #46a559 !important;
 }
 
-/* CODE SYNTAX COLORS */
+/* CODE SYNTAX TEXT COLORS */
 a.new, 
-td.table-no,
+td.table-no, td[style*="background:#F6E4E7"],
 span:is(.kd, .kn) {
   color: #FF7B72 !important;
 }
-td.table-yes {
+td.table-yes, td[style*="background:#D4F7D4"] {
   color: #46a559 !important;
 }
 span:is(.na, .k, .nb, .kr, .vg) {

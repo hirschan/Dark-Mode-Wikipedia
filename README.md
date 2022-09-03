@@ -16,8 +16,8 @@ Based on Github's dark default theme.
 # About
 This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the **English** Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
 * If you find any issues, [post here](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/21) or create a pull request
-* 5,000+ downloads on Firefox
-* 2,100+ daily users
+* 5,800+ downloads on Firefox
+* 2,600+ daily users
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
