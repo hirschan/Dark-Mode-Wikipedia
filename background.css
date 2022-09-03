@@ -86,7 +86,8 @@ span[class*="charts-n"]
 /* LIGHTER DARK BLUE BACKGROUND COLORING */
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
-th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"],
+th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
+td[style*="background:silver"],
 /*Buttons*/
 a[class*="mw-ui-button"] {
   background-color: #21262d !important;
