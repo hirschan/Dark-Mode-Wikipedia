@@ -14,7 +14,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 
 /* DARK BACKGROUND COLORING */
 h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
-li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
+li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
 /* Avoid using element "div" only */
@@ -44,7 +44,7 @@ th[colspan] > span,
 /*https://en.wikipedia.org/wiki/Kaliningrad_Oblast*/
 tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]), tr[class] > td,
 
-span[class*="flaggedrevs-"] {
+span[class*="flaggedrevs-"], span.nowrap {
   background-color: #0d1117 !important;
 }
 
@@ -53,7 +53,7 @@ h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, s
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, 
 td[class] > span[style*="white-space"], 
-tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-stretch"]  {
+tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-stretch"] {
   color: #c9d1d9 !important;
 }
 
@@ -62,7 +62,7 @@ td[class*="charts-nxa"] > span, td[class*="charts"],
 
 td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background:#17aa5c"],
 td:is([style*="background:#FFCDCC"], [style*="background:#CCDCFF"]) > b, td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], 
-td[style*="background:#fff3f3"], td.included, td[style*="background:pink"],
+td[style*="background:#fff3f3"], td.included, td[style*="background:pink"], td[style*="background:lightblue"]>b, 
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
 td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"], 
 td[style*="background:#FEDF09"], td[style*="background:#019CDB"], td[style*="background:#ED1B34"],
@@ -90,7 +90,7 @@ span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*=
 th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
 td[style*="background:silver"],
 /*Buttons*/
-a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"]{ 
+a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"] { 
   background-color: #21262d !important;
   color: #c9d1d9 !important;
 }
@@ -133,11 +133,11 @@ div[role="img"] {
   background-color: #21262d !important;
 }
 
-/* RED & GREEN COLORS (SUBTRACT AND ADD ICON) */
-span[class*="icon-subtract"] {
+/* RED & GREEN COLORS (SUB & ADD ICON, INSERT & DELETE REVISIONS) */
+span[class*="icon-subtract"], del {
   background-color: #e75d53 !important;
 }
-span[class*="icon-add"] {
+span[class*="icon-add"], ins {
   background-color: #46a559 !important;
 }
 
