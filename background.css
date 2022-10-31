@@ -172,6 +172,11 @@ span:is(.c1, .cm, .o, .mi, .mf, .fm) {
   background-color: #f2eee8 !important;
   filter: invert(1);
 }
+/* spanish Wikipedia main page fix*/
+.main-top-left{
+  background-image: none !important;
+  flex: none !important;
+}
 
 a.mw-wiki-logo {
   content: url("https://raw.githubusercontent.com/hirschan/Dark-Mode-Wikipedia/master/dark_wiki_icon_large.png");
