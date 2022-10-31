@@ -90,10 +90,10 @@ span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*=
 th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
 td[style*="background:silver"],
 /*Buttons*/
-a[class*="mw-ui-button"] {
+a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"]{ 
   background-color: #21262d !important;
+  color: #c9d1d9 !important;
 }
-
 /* LIGHT BLUE (CLICKABLE TEXT) */
 a, .tocnumber, .toctext, label.toctogglelabel, span.toctext i {
   color: #58a6ff !important;
@@ -166,6 +166,11 @@ span[class^="s"], span:is(.nn, .c, .nv) {
 td.table-partial, 
 span:is(.c1, .cm, .o, .mi, .mf, .fm) {
   color: #b2b4b6 !important;
+}
+
+#footer-icons{
+  background-color: #f2eee8 !important;
+  filter: invert(1);
 }
 
 a.mw-wiki-logo {
