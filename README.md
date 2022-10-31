@@ -16,8 +16,8 @@ Based on Github's dark default theme.
 # About
 This Firefox extension is suited for the average Wikipedia user. It is specifically adapted for the **English** Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
 * If you find any issues, [post here](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/21) or create a pull request
-* 5,800+ downloads on Firefox
-* 2,600+ daily users
+* 7,000+ downloads on Firefox
+* 3,100+ daily users
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -36,6 +36,8 @@ Or:
 
 🇩🇪 German
 
+🇪🇸 Spanish (work in progress)
+
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
@@ -53,6 +55,7 @@ Or:
 * Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
 * Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
 * Thank you [sorenss](https://github.com/sorenss), [Mounster-Chef](https://github.com/Mounster-Chef), [megapump](https://github.com/megagrump) and [HanatakeYurii ](https://github.com/HanatakeYurii) for finding issues
+* Thank you [sbritorodr](https://github.com/sbritorodr) for updating images and Spanish wiki homepage
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
