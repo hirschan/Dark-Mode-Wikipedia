@@ -28,7 +28,7 @@ div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[c
 div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
 div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
-div[class*="responsive-license"],
+div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"],
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
@@ -65,7 +65,7 @@ td:is([style*="background:#FFCDCC"], [style*="background:#CCDCFF"]) > b, td[styl
 td[style*="background:#fff3f3"], td.included, td[style*="background:pink"], td[style*="background:lightblue"]>b, 
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
 td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"], 
-td[style*="background:#FEDF09"], td[style*="background:#019CDB"], td[style*="background:#ED1B34"],
+td[style*="background:#FEDF09"], td[style*="background:#019CDB"], td[style*="background:#ED1B34"], td[style*="background: #FF0800"],
 td[style*="background:salmon"], td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
 td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"], td[bgcolor*="white"],
 
