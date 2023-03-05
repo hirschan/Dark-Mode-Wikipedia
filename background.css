@@ -186,3 +186,9 @@ a.mw-wiki-logo {
 #vector-toc::after {
   background: linear-gradient(rgba(255,255,255,0),#0d1117);
 }
+
+/* INVERTS COLOR OF LOGO AND TAGLINE */
+img.mw-logo-wordmark, img.mw-logo-tagline {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+}
