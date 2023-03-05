@@ -56,7 +56,8 @@ Or:
 * Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
 * Thank you [sorenss](https://github.com/sorenss), [Mounster-Chef](https://github.com/Mounster-Chef), [megapump](https://github.com/megagrump) and [HanatakeYurii ](https://github.com/HanatakeYurii) for finding issues
 * Thank you [sbritorodr](https://github.com/sbritorodr) for updating images and Spanish wiki homepage
-* Thank you Ascent817 for fixing svg element of table of contents
+* Thank you [Ascent817](https://github.com/Ascent817) for fixing svg element of table of contents
+* Thank you [cjohn-afk](https://github.com/cjohn-afk) for inverting logo
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)

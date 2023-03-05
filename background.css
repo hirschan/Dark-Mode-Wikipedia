@@ -52,7 +52,7 @@ span[class*="flaggedrevs-"], span.nowrap {
 h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, 
-td[class] > span[style*="white-space"], 
+td[class] > span[style*="white-space"],
 tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-stretch"] {
   color: #c9d1d9 !important;
 }
