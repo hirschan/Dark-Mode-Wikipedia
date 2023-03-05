@@ -192,3 +192,8 @@ img.mw-logo-wordmark, img.mw-logo-tagline {
         -webkit-filter: invert(1);
         filter: invert(1);
 }
+
+/* FIX LINE CUTTING ISSUE */
+.vector-menu-tabs .mw-list-item.vector-tab-noicon, .vector-page-toolbar-container .vector-menu-dropdown {
+    border-bottom: 1px solid white;
+}
