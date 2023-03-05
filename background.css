@@ -187,13 +187,13 @@ a.mw-wiki-logo {
   background: linear-gradient(rgba(255,255,255,0),#0d1117);
 }
 
-/* INVERTS COLOR OF LOGO AND TAGLINE */
-img.mw-logo-wordmark, img.mw-logo-tagline {
-        -webkit-filter: invert(1);
-        filter: invert(1);
+/* INVERTS COLOR OF LOGO, TAGLINE, AND VARIOUS ICONS */
+img.mw-logo-wordmark, img.mw-logo-taglinem, .central-textlogo__image {
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 /* FIX LINE CUTTING ISSUE */
 .vector-menu-tabs .mw-list-item.vector-tab-noicon, .vector-page-toolbar-container .vector-menu-dropdown {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
