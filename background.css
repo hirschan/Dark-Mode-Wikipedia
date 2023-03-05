@@ -188,7 +188,7 @@ a.mw-wiki-logo {
 }
 
 /* INVERTS COLOR OF LOGO AND TAGLINE */
-img.mw-logo-wordmark, img.mw-logo-tagline {
+img.mw-logo-wordmark, img.mw-logo-tagline, h1.central-textlogo-wrapper {
         -webkit-filter: invert(1);
         filter: invert(1);
 }
