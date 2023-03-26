@@ -39,7 +39,7 @@ td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[styl
 td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
 
-th[colspan] > span, 
+th[colspan] > span,
 
 /*https://en.wikipedia.org/wiki/Kaliningrad_Oblast*/
 tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]), tr[class] > td,
@@ -90,7 +90,7 @@ span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*=
 th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
 td[style*="background:silver"],
 /*Buttons*/
-a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"] { 
+a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"] { 
   background-color: #21262d !important;
   color: #c9d1d9 !important;
 }
@@ -183,7 +183,8 @@ a.mw-wiki-logo {
 }
 
 /* SVG FADE ELEMENT INSIDE TABLE OF CONTENTS */
-div#vector-toc.vector-toc.vector-pinnable-element::after {
+div#vector-toc.vector-toc.vector-pinnable-element::after,
+div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   background: linear-gradient(rgba(255,255,255,0),#0d1117);
 }
 
