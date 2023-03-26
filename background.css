@@ -183,7 +183,7 @@ a.mw-wiki-logo {
 }
 
 /* SVG FADE ELEMENT INSIDE TABLE OF CONTENTS */
-#vector-toc::after {
+div#vector-toc.vector-toc.vector-pinnable-element::after {
   background: linear-gradient(rgba(255,255,255,0),#0d1117);
 }
 
