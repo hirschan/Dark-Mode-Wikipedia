@@ -53,7 +53,7 @@ Or:
 * Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
 * Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
 * Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
-* Thank you [sorenss](https://github.com/sorenss), [Mounster-Chef](https://github.com/Mounster-Chef), [megapump](https://github.com/megagrump) and [HanatakeYurii ](https://github.com/HanatakeYurii) for finding issues
+* Thank you [sorenss](https://github.com/sorenss), [Mounster-Chef](https://github.com/Mounster-Chef), [megapump](https://github.com/megagrump), [psychofisch](https://github.com/psychofisch) and [HanatakeYurii ](https://github.com/HanatakeYurii) for finding issues
 * Thank you [sbritorodr](https://github.com/sbritorodr) for updating images and Spanish wiki homepage
 * Thank you [Ascent817](https://github.com/Ascent817) for fixing svg element of table of contents
 * Thank you [cjohn-afk](https://github.com/cjohn-afk) for inverting logo and fixing white line issue
