@@ -189,7 +189,7 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
 }
 
 /* INVERTS COLOR OF LOGO, TAGLINE, AND VARIOUS ICONS */
-img.mw-logo-wordmark, img.mw-logo-taglinem, .central-textlogo__image {
+img.mw-logo-wordmark, img.mw-logo-taglinem, .mw-ext-score>img, .central-textlogo__image {
   -webkit-filter: invert(1);
   filter: invert(1);
 }
