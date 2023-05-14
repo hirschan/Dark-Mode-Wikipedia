@@ -198,3 +198,7 @@ img.mw-logo-wordmark, img.mw-logo-taglinem, .mw-ext-score>img, .central-textlogo
 .vector-menu-tabs .mw-list-item.vector-tab-noicon, .vector-page-toolbar-container .vector-menu-dropdown {
   border-bottom: 1px solid white;
 }
+
+.vector-page-toolbar {
+  border-top: 1px solid white;
+}
