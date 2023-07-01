@@ -14,9 +14,9 @@ Based on Github's dark default theme.
 </p>
 
 # About
-This Firefox extension is suited for the **average** Wikipedia user. It is specifically adapted for the **English** Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
+This Firefox extension is suited for the **average** Wikipedia user. It is specifically adapted for the **English 🇬🇧** Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
 * If you find any issues, [post here](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/21) or create a pull request
-* 10,000+ downloads on Firefox
+* 13,000+ downloads on Firefox
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -30,12 +30,6 @@ Or:
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
 
-## Supported languages
-🇬🇧 English
-
-🇩🇪 German
-
-🇪🇸 Spanish (work in progress)
 
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
