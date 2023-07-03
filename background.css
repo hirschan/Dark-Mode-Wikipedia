@@ -28,7 +28,7 @@ div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[c
 div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
 div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
-div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"], div.oo-ui-popupWidget-popup, div.mw-message-box,
+div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"], div.oo-ui-popupWidget-popup, div.mw-message-box, div.mw-htmlform-submit-buttons,
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
@@ -113,14 +113,16 @@ pre, code, .hll, tr::before {
 /* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
 img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
 img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"], a[href*="/wiki/Special:Preferences#mw-prefsection-rendering"],
-img[src*="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/12px-Loudspeaker.svg.png"],
+img[src*="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/12px-Loudspeaker.svg.png"], 
+span.oo-ui-iconElement-icon, span.vector-icon--x-small,
 span:is([class*="mw-ui-icon-wikimedia-star"], [class*="mw-ui-icon-wikimedia-unStar"]) {
     filter: invert(90%) !important;
 }
 
+
 /* DARK GREY BACKGROUND - ICONS & BUTTONS VISIBLE */
-.mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary, a.oo-ui-icon-bell, a.oo-ui-icon-tray,
-span[class*="oo-ui-dropdownWidget-handle"], div.oo-ui-popupWidget-head, a.oo-ui-buttonElement-button {
+.mw-helplink, .oo-ui-indicator-down, .infobox-above.summary, a.oo-ui-icon-bell, a.oo-ui-icon-tray, div.oo-ui-popupWidget-head,
+span[class*="oo-ui-dropdownWidget-handle"] {
   background-color: #21262d !important;
 }
 
