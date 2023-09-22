@@ -15,7 +15,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 /* DARK BACKGROUND COLORING */
 h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, figcaption, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
-span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
+span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), .languagesettings-menu .menu-section, div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
 /* Avoid using element "div" only */
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
@@ -29,6 +29,7 @@ div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], di
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
 div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
 div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"], div.oo-ui-popupWidget-popup, div.mw-message-box, div.mw-htmlform-submit-buttons,
+div.uls-language-settings-close-block, div#languagesettings-settings-panel,
 
 /* Avoid using element "td" only since it will override colors in some tables */
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
@@ -52,7 +53,7 @@ span[class*="flaggedrevs-"], span.nowrap {
 h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, 
-td[class] > span[style*="white-space"],
+td[class] > span[style*="white-space"], .checkbox strong,
 tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-stretch"] {
   color: #c9d1d9 !important;
 }
@@ -86,16 +87,16 @@ span[class*="charts-n"]
 
 /* LIGHTER DARK BLUE BACKGROUND COLORING */
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
-span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
-th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
-td[style*="background:silver"],
+.mw-ui-button:not(.mw-ui-quiet, .mw-ui-pressed, .mw-ui-progressive), td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"],
+td[style*="vertical-align:top; background:#f2f2f4"], th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"],
+td[style*="background:lightgrey"], td[style*="background:silver"], form .cdx-button,
 /*Buttons*/
 a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"], button[class*="vector-limited-width-toggle"] { 
   background-color: #21262d !important;
   color: #c9d1d9 !important;
 }
 /* LIGHT BLUE (CLICKABLE TEXT) */
-a, .tocnumber, .toctext, label.toctogglelabel, span.toctext i {
+a, a *, .tocnumber, .toctext, label.toctogglelabel, span.toctext i {
   color: #58a6ff !important;
 }
 
@@ -192,7 +193,10 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
 }
 
 /* INVERTS COLOR OF LOGO, TAGLINE, AND VARIOUS ICONS */
-img.mw-logo-wordmark, img.mw-logo-taglinem, .mw-ext-score>img, .central-textlogo__image {
+img.mw-logo-wordmark, img.mw-logo-tagline, .mw-ext-score>img, .central-textlogo__image, .uls-add-languages-button, .uls-search-label, .uls-language-actions-close,
+.mw-ui-icon-wikimedia-fullScreen, .mw-ui-icon-wikimedia-exitFullscreen, .mw-ui-icon-wikimedia-menu, .mw-ui-icon-wikimedia-ellipsis, .mw-ui-icon-wikimedia-listBullet,
+.cdx-text-input__icon, .uls-icon-close {
+  background-color: transparent !important;
   -webkit-filter: invert(1);
   filter: invert(1);
 }
@@ -204,4 +208,9 @@ img.mw-logo-wordmark, img.mw-logo-taglinem, .mw-ext-score>img, .central-textlogo
 
 .vector-page-toolbar {
   border-top: 1px solid white;
+}
+
+/* FIX BAckGROUND TRANSPARENCY */
+div#p-dock-bottom {
+  background-color: transparent !important;
 }
