@@ -3,9 +3,9 @@
 - HTML class attributes: .class-name (.btn)
 - HTML ID, unique: #id (#searchButton)
 
-!important means forced coloring 
+!important means forced coloring
 
-CSS attributes & values: [attribute="value"] 
+CSS attributes & values: [attribute="value"]
 * = all, div[class*="test"]
 ~ = specific word, [title~="flower"]
 ^ = whose value starts with the specified value, [class^="top"]
@@ -13,7 +13,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
 
 
 /* DARK BACKGROUND COLORING */
-h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, figcaption, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
+h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, figcaption, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey],
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), .languagesettings-menu .menu-section, div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
@@ -34,10 +34,10 @@ div.uls-language-settings-close-block, div#languagesettings-settings-panel,
 /* Avoid using element "td" only since it will override colors in some tables */
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
 td[class*="navbox"],
-td:is(.diff-context, .infobox-subheader, .infobox-below, .MainPageBG, .navbox-group, .navbox-abovebelow, .plainlist, .sidebar-above, .sidebar-below, .sidebar-navbar), 
+td:is(.diff-context, .infobox-subheader, .infobox-below, .MainPageBG, .navbox-group, .navbox-abovebelow, .plainlist, .sidebar-above, .sidebar-below, .sidebar-navbar),
 td[style*="text-align"], td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
 td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
-td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
+td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"],
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
 
 th[colspan] > span,
@@ -52,8 +52,8 @@ span[class*="flaggedrevs-"], span.nowrap {
 /* LIGHT GREY TEXT COLORING */
 h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
-div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, 
-td[class] > span[style*="white-space"], .checkbox strong,
+div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header,
+td[class] > span[style*="white-space"], .checkbox strong, .mw-collapsible-toggle-default,
 tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-stretch"] {
   color: #c9d1d9 !important;
 }
@@ -62,10 +62,10 @@ tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-str
 td[class*="charts-nxa"] > span, td[class*="charts"],
 
 td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background:#17aa5c"],
-td:is([style*="background:#FFCDCC"], [style*="background:#CCDCFF"]) > b, td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], 
-td[style*="background:#fff3f3"], td.included, td[style*="background:pink"], td[style*="background:lightblue"]>b, 
+td:is([style*="background:#FFCDCC"], [style*="background:#CCDCFF"]) > b, td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"],
+td[style*="background:#fff3f3"], td.included, td[style*="background:pink"], td[style*="background:lightblue"]>b,
 td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
-td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"], 
+td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"],
 td[style*="background:#FEDF09"], td[style*="background:#019CDB"], td[style*="background:#ED1B34"], td[style*="background: #FF0800"],
 td[style*="background:salmon"], td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
 td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"], td[bgcolor*="white"],
@@ -89,14 +89,14 @@ span[class*="charts-n"]
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
 .mw-ui-button:not(.mw-ui-quiet, .mw-ui-pressed, .mw-ui-progressive), td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"],
 td[style*="vertical-align:top; background:#f2f2f4"], th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"],
-td[style*="background:lightgrey"], td[style*="background:silver"], form .cdx-button,
+td[style*="background:lightgrey"], td[style*="background:silver"], form .cdx-button, div.hidden-title,
 /*Buttons*/
-a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"], button[class*="vector-limited-width-toggle"] { 
+a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"], button[class*="vector-limited-width-toggle"] {
   background-color: #21262d !important;
   color: #c9d1d9 !important;
 }
 /* LIGHT BLUE (CLICKABLE TEXT) */
-a, a *, .tocnumber, .toctext, label.toctogglelabel, span.toctext i {
+a, a *, .tocnumber, .toctext, label.toctogglelabel, span.toctext i, .mw-collapsible-toggle-default .mw-collapsible-text {
   color: #58a6ff !important;
 }
 
@@ -114,7 +114,7 @@ pre, code, .hll, tr::before {
 /* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
 img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
 img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"], a[href*="/wiki/Special:Preferences#mw-prefsection-rendering"],
-img[src*="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/12px-Loudspeaker.svg.png"], 
+img[src*="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/12px-Loudspeaker.svg.png"],
 span.oo-ui-iconElement-icon, span.vector-icon--x-small,
 span:is([class*="mw-ui-icon-wikimedia-star"], [class*="mw-ui-icon-wikimedia-unStar"]) {
     filter: invert(90%) !important;
@@ -146,7 +146,7 @@ span[class*="icon-add"], ins {
 }
 
 /* CODE SYNTAX TEXT COLORS */
-a.new, 
+a.new,
 td.table-no, td[style*="background:#F6E4E7"],
 span:is(.kd, .kn) {
   color: #FF7B72 !important;
@@ -167,7 +167,7 @@ span:is(.nc, .nf, .kt) {
 span[class^="s"], span:is(.nn, .c, .nv) {
   color: #A5D6FF !important;
 }
-td.table-partial, 
+td.table-partial,
 span:is(.c1, .cm, .o, .mi, .mf, .fm) {
   color: #b2b4b6 !important;
 }
