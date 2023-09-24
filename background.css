@@ -147,10 +147,13 @@ span[class*="icon-add"], ins {
 /* CODE SYNTAX TEXT COLORS */
 a.new, 
 td.table-no, td[style*="background:#F6E4E7"],
-span:is(.kd, .kn) {
+td.table-no > p, td[style*="background:#F6E4E7"] > p,
+span:is(.kd, .kn),
+span:is(.kd, .kn) > p {
   color: #FF7B72 !important;
 }
-td.table-yes, td[style*="background:#D4F7D4"] {
+td.table-yes, td[style*="background:#D4F7D4"],
+td.table-yes > p, td[style*="background:#D4F7D4"] > p {
   color: #46a559 !important;
 }
 span:is(.na, .k, .nb, .kr, .vg) {
@@ -166,9 +169,11 @@ span:is(.nc, .nf, .kt) {
 span[class^="s"], span:is(.nn, .c, .nv) {
   color: #A5D6FF !important;
 }
-td.table-partial, 
-span:is(.c1, .cm, .o, .mi, .mf, .fm) {
-  color: #b2b4b6 !important;
+td.table-partial, td.table-maybe, td[style*="background:#FFB"], td[style*="background:#FFFFBB"],
+td.table-partial > p, td.table-maybe > p, td[style*="background:#FFB"] > p, td[style*="background:#FFFFBB"] > p,
+span:is(.c1, .cm, .o, .mi, .mf, .fm),
+span:is(.c1, .cm, .o, .mi, .mf, .fm) > p {
+  color: #F6B511 !important;
 }
 
 #footer-icons {
