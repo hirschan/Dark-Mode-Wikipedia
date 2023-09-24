@@ -51,6 +51,7 @@ Or:
 * Thank you [sbritorodr](https://github.com/sbritorodr) for updating images and Spanish wiki homepage
 * Thank you [Ascent817](https://github.com/Ascent817) for fixing svg element of table of contents
 * Thank you [cjohn-afk](https://github.com/cjohn-afk) for inverting logo and fixing white line issue
+* Thanky you [adiskill](https://github.com/adiskill) for general improvements
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
