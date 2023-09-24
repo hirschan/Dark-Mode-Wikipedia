@@ -53,5 +53,9 @@ Or:
 * Thank you [cjohn-afk](https://github.com/cjohn-afk) for inverting logo and fixing white line issue
 * Thanky you [adiskill](https://github.com/adiskill) for general improvements
 
+## Checkout PRs locally
+1. Run in cmd: `git fetch origin pull/$ID/head:$BRANCH_NAME`
+2. `git checkout BRANCH_NAME`
+
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
