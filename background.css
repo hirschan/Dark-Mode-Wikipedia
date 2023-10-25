@@ -28,7 +28,7 @@ tr::before {
 }
 
 /* White text */
-div, li {
+div, li, div > button /*Search button clicked*/, input /*Text input in search field*/ {
   color: #c9d1d9 !important;
 }
 

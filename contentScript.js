@@ -1,12 +1,6 @@
 // Waiting for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Remove language icon since we cannot modify its colors
-    const langIcon = document.querySelector('.vector-icon.mw-ui-icon-language-progressive.mw-ui-icon-wikimedia-language-progressive');
-    if (langIcon) {
-        langIcon.style.backgroundImage = 'none';
-    }
-
     // Get all elements on the page
     const allElements = document.querySelectorAll('*');
 
