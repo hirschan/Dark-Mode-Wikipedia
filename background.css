@@ -18,7 +18,21 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 
 
 /* Set dark background except certain selectors */
-*:not(tr, td, div[style*="background-color"], div > div > span, td > div > span) {
+*:not(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a) { /* TODO: remove video bug: https://en.wikipedia.org/wiki/Wikipedia#Language_editions*/
+  background-color: #0d1117 !important;
+}
+
+/*div[class*="mw"] and div causes black bug*/
+div[class*="mw-page-container"], div[class*="vector-header-container"], div[id*="vector-main-menu"], div[id*="vector-toc"], div[id*="mp"], div[class*="side"], div[class*="thumb"],
+div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
+/*Talk page EN:*/ div[id*="talk"], div[id*="centralized"], div[class*="module"], div[id*="main"], td[class*="mp"], div[id*="catlinks"],
+/*View history page EN:*/ div[class*="oo-ui"], div[class*="mw-widget"],
+/*Edit source page EN:*/ div[class*="wiki"], div[class*="edit"], div[class*="ext"],
+/*Preferences page EN:*/ div[class*="mw-html"], span[class*="oo-ui"],
+/*Notifications page EN:*/ div[class*="mw-echo"],
+tbody > tr > td, /* https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations */
+div:root
+{
   background-color: #0d1117 !important;
 }
 
@@ -27,8 +41,9 @@ tr::before {
   background-color: #21262d !important;
 }
 
-/* White text */
-div, li, div > button /*Search button clicked*/, input /*Text input in search field*/ {
+/* White text*/
+div > button /*Search button clicked*/, input /*Text input in search field*/, 
+/*View history page EN:*/ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span {
   color: #c9d1d9 !important;
 }
 
