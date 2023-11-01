@@ -26,19 +26,14 @@ document.addEventListener('DOMContentLoaded', function() {
             element.style.backgroundColor = '#0d1117'
         }
 
+        
+        // Search button text, headline text and grey text to white
+        const lightTextColors = ['rgb(32, 33, 34)', 'rgb(0, 0, 0)', 'rgb(84, 89, 93)']
 
-        // Search button text to white
-        if (currentColor === 'rgb(32, 33, 34)') {
+        if (lightTextColors.includes(currentColor)) {
             element.style.color = '#c9d1d9'
         }
-        // Headline text to white
-        if (currentColor === 'rgb(0, 0, 0)') {
-            element.style.color = '#c9d1d9'
-        }
-        // Grey text to white
-        if (currentColor === 'rgb(84, 89, 93)') {
-            element.style.color = '#c9d1d9'
-        }
+
 
         // Grey background to lighter dark background
         if (currentBackgroundColor === 'rgb(240, 240, 240)') {

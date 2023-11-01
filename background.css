@@ -72,6 +72,11 @@ div#vector-toc.vector-toc.vector-pinnable-element::after, div#vector-page-tools.
   background: none !important;
 }
 
+/* Remove popup white gradient fade*/
+.mwe-popups .mwe-popups-extract[dir='ltr']::after{
+  background-image:linear-gradient(to right, rgba(13,17,23,0), #0d1117 50%) !important;
+}
+
 /* Force white line on top */
 .vector-page-toolbar {
   border-top: 1px solid white;
