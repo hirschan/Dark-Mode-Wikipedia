@@ -35,7 +35,7 @@ Or:
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
-- [X] [Table with colors (element td)](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
+- [X] [Table with colors (element td)](https://es.wikipedia.org/wiki/King_Crimson#Componentes_del_grupo_por_%C3%A1lbumes)
 - [X] [Temperature table](https://en.wikipedia.org/wiki/London#Climate)
 - [X] [Coloring on table](https://en.wikipedia.org/wiki/Democracy_Index#By_region)
 - [X] [Progress bars](https://en.wikipedia.org/wiki/2018_Swedish_general_election#Parties)

@@ -63,6 +63,11 @@ document.addEventListener('DOMContentLoaded', function() {
             element.style.backgroundColor = '#0d1117'
         }
 
+        // Light red to dark background
+        if (currentBackgroundColor === 'rgb(255, 219, 219)') {
+            element.style.backgroundColor = '#0d1117'
+        }
+
     });
 
 });
