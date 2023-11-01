@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             element.style.backgroundColor = '#0d1117'
         }
 
-        
+
         // Search button text, headline text and grey text to white
         const lightTextColors = ['rgb(32, 33, 34)', 'rgb(0, 0, 0)', 'rgb(84, 89, 93)']
 
@@ -64,6 +64,31 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentBackgroundColor === 'rgb(255, 219, 219)') {
             element.style.backgroundColor = '#0d1117'
         }
+
+        // Light grey/white to dark background
+        if (currentBackgroundColor === 'rgb(249, 249, 249)') { // https://en.wikipedia.org/wiki/Latex
+            element.style.backgroundColor = '#0d1117'
+        }
+
+
+
+        if (currentBackgroundColor === 'rgb(255, 187, 0)') { // https://en.wikipedia.org/wiki/Amateur_radio_call_signs#Formation_of_an_amateur_radio_call_sign
+            element.style.color = '#0d1117'
+        }
+
+        if (currentBackgroundColor === 'rgb(255, 187, 187)') { 
+            element.style.color = '#0d1117'
+        }
+
+        if (currentBackgroundColor === 'rgb(255, 255, 255)') { // https://en.wikipedia.org/wiki/Piano_key_frequencies vs. https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados
+            element.style.color = '#0d1117'
+        }
+        if (currentBackgroundColor === 'rgb(211, 211, 211)') { 
+            element.style.backgroundColor = '#0d1117'
+        }
+
+
+        // TODO: fix temperature tables
 
     });
 

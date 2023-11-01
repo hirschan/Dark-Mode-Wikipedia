@@ -28,15 +28,16 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 div[class*="mw-page-container"], div[class*="vector-header-container"], div[id*="vector-main-menu"], div[id*="vector-toc"], div[id*="mp"], div[class*="side"], div[class*="thumb"],
 div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
 /* Talk page EN: */ div[id*="talk"], div[id*="centralized"], div[class*="module"], div[id*="main"], td[class*="mp"], div[id*="catlinks"],
-/* View history page EN: */ div[class*="oo-ui"], div[class*="mw-widget"],
-/* Edit source page EN: */ div[class*="wiki"], div[class*="edit"], /* div[class*="ext"] - causes video bug */
-/* Preferences page EN: */ div[class*="mw-html"], span[class*="oo-ui"],
-/* Notifications page EN: */ div[class*="mw-echo"],
+/* View history page: */ div[class*="oo-ui"], div[class*="mw-widget"],
+/* Edit source page: */ div[class*="wiki"], div[class*="edit"], /* div[class*="ext"] - causes video bug */
+/* Preferences page: */ div[class*="mw-html"], span[class*="oo-ui"],
+/* Notifications page: */ div[class*="mw-echo"],
 /* Side bar: https://en.wikipedia.org/wiki/Wikipedia */ div[class*="hidden-title"],
 /* Opening image bottom bar: */ div[class*="mw-mmv"],
 /* Hovering over footnotes: */ div[id*="cite_ref"],
 /* Discussion notice pop up: */ div[class*="mw-message-box"],
 /* Preview tool window: */ div[class*="ext-discussiontools"],
+/* Wikipedia main site: */div[id="js-lang-lists"], div[class*="lang-list-container"],
 div:root
 {
   background-color: #0d1117 !important;
@@ -53,7 +54,7 @@ tr::before {
 
 /* White text */
 div > button /* Search button clicked */, input /* Text input in search field */, 
-/* View history page EN: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span,
+/* View history page: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span,
 /* Discussion notice pop up: */ div[id*="semiprotectedpagewarning"], li[class*="mw-logline-protect"] {
   color: #c9d1d9 !important;
 }
@@ -63,6 +64,10 @@ a, a > span {
   color: #58a6ff !important;
 }
 
+/* Hyperlinks not existing */
+a[class*="new"] {
+  color: #ff9558 !important;
+}
 
 
 /* MISCELLANEOUS */
@@ -84,7 +89,8 @@ div#vector-toc.vector-toc.vector-pinnable-element::after, div#vector-page-tools.
 
 /* Coloring icons to white */
 span[class~="vector-icon"], a[class~="vector-icon"], span[class~="oo-ui-iconElement-icon"], 
-/*Checkbox icons in preferences page*/ span[id*="mw-input-wpecho-subscriptions"] {
+/* Checkbox icons in preferences page: */ span[id*="mw-input-wpecho-subscriptions"],
+/* LaTeX formulas: */ img.mwe-math-fallback-image-display, img.mwe-math-fallback-image-inline {
   background-color: transparent !important;
   -webkit-filter: invert(1);
   filter: invert(1);
