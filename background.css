@@ -35,6 +35,8 @@ div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
 /* Side bar: https://en.wikipedia.org/wiki/Wikipedia */ div[class*="hidden-title"],
 /* Opening image bottom bar: */ div[class*="mw-mmv"],
 /* Hovering over footnotes: */ div[id*="cite_ref"],
+/* Discussion notice pop up: */ div[class*="mw-message-box"],
+/* Preview tool window: */ div[class*="ext-discussiontools"],
 div:root
 {
   background-color: #0d1117 !important;
@@ -51,7 +53,8 @@ tr::before {
 
 /* White text */
 div > button /* Search button clicked */, input /* Text input in search field */, 
-/* View history page EN: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span {
+/* View history page EN: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span,
+/* Discussion notice pop up: */ div[id*="semiprotectedpagewarning"], li[class*="mw-logline-protect"] {
   color: #c9d1d9 !important;
 }
 

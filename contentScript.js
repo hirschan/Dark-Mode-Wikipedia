@@ -59,14 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
         // Light blue(?) background to dark
-        if (currentBackgroundColor === 'rgb(247, 247, 247)') { // Bottom table: https://en.wikipedia.org/wiki/European_Defence_Agency#External_links
-            element.style.backgroundColor = '#0d1117'
-        }
-        if (currentBackgroundColor === 'rgb(220, 220, 220)') {
-            element.style.backgroundColor = '#0d1117'
-        }
-
-        const lightBlueBackgroundColors = ['rgb(248, 248, 248)', 'rgb(248, 252, 255)'] // Refactoring JS code
+        const lightBlueBackgroundColors = ['rgb(248, 248, 248)', 'rgb(248, 252, 255)', 'rgb(205, 222, 255)', 'rgb(220, 220, 220)', 'rgb(247, 247, 247)']
 
         if (lightBlueBackgroundColors.includes(currentBackgroundColor)) {
             element.style.backgroundColor = '#0d1117'
