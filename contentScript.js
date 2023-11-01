@@ -62,6 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentBackgroundColor === 'rgb(247, 247, 247)') { // Bottom table: https://en.wikipedia.org/wiki/European_Defence_Agency#External_links
             element.style.backgroundColor = '#0d1117'
         }
+        if (currentBackgroundColor === 'rgb(220, 220, 220)') {
+            element.style.backgroundColor = '#0d1117'
+        }
 
         // Light red to dark background
         if (currentBackgroundColor === 'rgb(255, 219, 219)') {
