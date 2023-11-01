@@ -34,6 +34,7 @@ div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
 /* Notifications page EN: */ div[class*="mw-echo"],
 /* Side bar: https://en.wikipedia.org/wiki/Wikipedia */ div[class*="hidden-title"],
 /* Opening image bottom bar: */ div[class*="mw-mmv"],
+/* Hovering over footnotes: */ div[id*="cite_ref"],
 div:root
 {
   background-color: #0d1117 !important;
