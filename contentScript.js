@@ -66,6 +66,12 @@ document.addEventListener('DOMContentLoaded', function() {
             element.style.backgroundColor = '#0d1117'
         }
 
+        const lightBlueBackgroundColors = ['rgb(248, 248, 248)', 'rgb(248, 252, 255)'] // Refactoring JS code
+
+        if (lightBlueBackgroundColors.includes(currentBackgroundColor)) {
+            element.style.backgroundColor = '#0d1117'
+        }
+
         // Light red to dark background
         if (currentBackgroundColor === 'rgb(255, 219, 219)') {
             element.style.backgroundColor = '#0d1117'
