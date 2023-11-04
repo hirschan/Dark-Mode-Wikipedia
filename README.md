@@ -30,7 +30,7 @@ Or:
 4. Select **manifest.json**
 
 ## Example
-<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
+<img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example_nov_2023.png" width="600">
 
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
