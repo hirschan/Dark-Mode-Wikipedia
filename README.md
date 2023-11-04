@@ -20,10 +20,6 @@ This Firefox extension is suited for the **average** Wikipedia user. It is speci
 
 As of October/November 2023, I re-worked this extension to move some coloring logic into `contentScript.js`. Reason: `background.css` became too big and difficult to maintain.
 
-## News
-
-As of 2023-10-25 I started my journey in refactoring this extension since it's grown and is difficult to maintain. If you want to check the refactoring work in progress and contribute, please switch branch to: [refactor](https://github.com/hirschan/Dark-Mode-Wikipedia/tree/refactor). CSS file will be reduced and I will use `contentScript.js` instead for some dynamic coloring.
-
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
 
@@ -57,6 +53,6 @@ Or:
 
 ## Roadmap
 
-1. [] Refactor `contentScript.js`
-2. [] Introduce CSS file to list colors in
-3. [] Improve coloring logic for tables
+- [ ] Refactor `contentScript.js`
+- [ ] Introduce CSS file to list colors in
+- [ ] Improve coloring logic for tables
