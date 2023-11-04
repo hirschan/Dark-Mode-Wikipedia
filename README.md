@@ -15,8 +15,10 @@ Based on Github's dark default theme.
 
 # About
 This Firefox extension is suited for the **average** Wikipedia user. It is specifically adapted for the **English 🇬🇧** Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
-* If you find any issues, [post here](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/21) or create a pull request
-* 13,000+ downloads on Firefox
+* If you find issues, [post here](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/21)
+* 14,000+ downloads on Firefox
+
+As of October/November 2023, I re-worked this extension to move some coloring logic into `contentScript.js`. Reason: `background.css` became too big and difficult to maintain.
 
 ## News
 
@@ -34,12 +36,11 @@ Or:
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
 
-
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
 - [X] [Code syntaxes](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples)
-- [X] [Table with colors (element td)](https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados)
+- [X] [Table with colors (element td)](https://es.wikipedia.org/wiki/King_Crimson#Componentes_del_grupo_por_%C3%A1lbumes)
 - [X] [Temperature table](https://en.wikipedia.org/wiki/London#Climate)
 - [X] [Coloring on table](https://en.wikipedia.org/wiki/Democracy_Index#By_region)
 - [X] [Progress bars](https://en.wikipedia.org/wiki/2018_Swedish_general_election#Parties)
@@ -47,19 +48,15 @@ Or:
 - [X] [Red green yellow table coloring](https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations)
 - [X] [Element "span" grey coloring](https://en.wikipedia.org/wiki/Affricate)
 
-## Wall of Fame 🏆
-* Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
-* Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
-* Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
-* Thank you [sorenss](https://github.com/sorenss), [Mounster-Chef](https://github.com/Mounster-Chef), [megapump](https://github.com/megagrump), [psychofisch](https://github.com/psychofisch) and [HanatakeYurii ](https://github.com/HanatakeYurii) for finding issues
-* Thank you [sbritorodr](https://github.com/sbritorodr) for updating images and Spanish wiki homepage
-* Thank you [Ascent817](https://github.com/Ascent817) for fixing svg element of table of contents
-* Thank you [cjohn-afk](https://github.com/cjohn-afk) for inverting logo and fixing white line issue
-* Thanky you [adiskill](https://github.com/adiskill) for general improvements
-
 ## Checkout PRs locally
 1. Run in cmd: `git fetch origin pull/$ID/head:$BRANCH_NAME`
 2. `git checkout BRANCH_NAME`
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
+
+## Roadmap
+
+1. [] Refactor `contentScript.js`
+2. [] Introduce CSS file to list colors in
+3. [] Improve coloring logic for tables

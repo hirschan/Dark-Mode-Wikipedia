@@ -1,7 +1,11 @@
-/* CSS Selectors:
-- HTML elements (div, nav, etc.)
-- HTML class attributes: .class-name (.btn)
-- HTML ID, unique: #id (#searchButton)
+/* 
+This file is used for initially rendering CSS styles, when web page is loading and DOM has not been rendered yet. 
+Prevents default coloring to load in for a split second which causes bad UX.
+
+CSS Selectors:
+- Elements (div, nav, etc.)
+- Class attributes: .class-name (.btn)
+- IDs, unique: #id (#searchButton)
 
 !important means forced coloring
 
@@ -9,218 +13,94 @@ CSS attributes & values: [attribute="value"]
 * = all, div[class*="test"]
 ~ = specific word, [title~="flower"]
 ^ = whose value starts with the specified value, [class^="top"]
-Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
+Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
+*/
 
 
-/* DARK BACKGROUND COLORING */
-h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, figcaption, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey],
-li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
-span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), .languagesettings-menu .menu-section, div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
+/*---DARK BACKGROUND---*/
 
-/* Avoid using element "div" only */
-div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
-div.portal-bar, div.suggestions-result, div.special-label, div.special-query, div.suggestions-special, div.editOptions, div[id*="wikiEditor-ui-toolbar"], div.sidebar-list-title,
-div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"], span[style^="display"],
-div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"], div.mw-mmv-above-fold, div.mw-mmv-image-metadata, div.thumb, div[id*="ooui-php-"], div.mw-prefs-buttons,
-div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"], div[style*="display"],
-div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
-div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
-div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
-div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
-div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
-div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"], div.oo-ui-popupWidget-popup, div.mw-message-box, div.mw-htmlform-submit-buttons,
-div.uls-language-settings-close-block, div#languagesettings-settings-panel,
-
-/* Avoid using element "td" only since it will override colors in some tables */
-td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
-td[class*="navbox"],
-td:is(.diff-context, .infobox-subheader, .infobox-below, .MainPageBG, .navbox-group, .navbox-abovebelow, .plainlist, .sidebar-above, .sidebar-below, .sidebar-navbar),
-td[style*="text-align"], td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
-td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
-td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"],
-td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
-
-th[colspan] > span,
-
-/*https://en.wikipedia.org/wiki/Kaliningrad_Oblast*/
-tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]), tr[class] > td,
-
-span[class*="flaggedrevs-"], span.nowrap {
+/* Set dark background except selectors listed below */
+*:not(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a[class*="mw-tmh-play"],
+/* Text in tables: */ td > span, td > b, td > a, td > sub) {
   background-color: #0d1117 !important;
 }
 
-/* LIGHT GREY TEXT COLORING */
-h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
-div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
-div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header,
-td[class] > span[style*="white-space"], .checkbox strong, .mw-collapsible-toggle-default,
-tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-stretch"] {
-  color: #c9d1d9 !important;
+/* AVOID: div[class*="mw"] and div since it causes black bug (GitHub issue #10) */
+div[class*="mw-page-container"], div[class*="vector-header-container"], div[id*="vector-main-menu"], div[id*="vector-toc"], div[id*="mp"], div[class*="side"], div[class*="thumb"],
+div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
+/* Talk page EN: */ div[id*="talk"], div[id*="centralized"], div[class*="module"], div[id*="main"], td[class*="mp"], div[id*="catlinks"],
+/* View history page: */ div[class*="oo-ui"], div[class*="mw-widget"],
+/* Edit source page: */ div[class*="wiki"], div[class*="edit"], /* div[class*="ext"] - causes video bug */
+/* Preferences page: */ div[class*="mw-html"], span[class*="oo-ui"],
+/* Notifications page: */ div[class*="mw-echo"],
+/* Side bar: https://en.wikipedia.org/wiki/Wikipedia */ div[class*="hidden-title"],
+/* Opening image bottom bar: */ div[class*="mw-mmv"],
+/* Hovering over footnotes: */ div[id*="cite_ref"],
+/* Discussion notice pop up: */ div[class*="mw-message-box"],
+/* Preview tool window: */ div[class*="ext-discussiontools"],
+/* Wikipedia main site: */div[id="js-lang-lists"], div[class*="lang-list-container"],
+/* Quotebox: */ div[class*="quotebox"], div[id*="sisterproject"],
+div:root
+{
+  background-color: #0d1117 !important;
 }
 
-/* DARK TEXT COLORING ON TABLES */
-td[class*="charts-nxa"] > span, td[class*="charts"],
-
-td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background:#17aa5c"],
-td:is([style*="background:#FFCDCC"], [style*="background:#CCDCFF"]) > b, td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"],
-td[style*="background:#fff3f3"], td.included, td[style*="background:pink"], td[style*="background:lightblue"]>b,
-td[style*="background:lightgreen"], td[style*="background:paleturquoise"], td[style*="background:turquoise"], td[style*="background:yellow"], td[style*="background:white"],
-td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="background:#ff"], td[style*="background:#c"],
-td[style*="background:#FEDF09"], td[style*="background:#019CDB"], td[style*="background:#ED1B34"], td[style*="background: #FF0800"],
-td[style*="background:salmon"], td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
-td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"], td[bgcolor*="white"],
-
-td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"], td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
-td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b, td[style*="background-color:#B0CEFF"], td[style*="background-color:#B0CEFF"]>b,
-td[style*="background-color:#DDDDDD"], td[style*="color:#000000"],
-
-td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcolor="#f9f8bb"] > b, td[bgcolor="#fad45d"] > b,
-td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b, td[bgcolor="FFD700"], td[bgcolor="silver"], td[bgcolor="gold"], td[bgcolor="cc9966"], td[bgcolor*="#6bd2df"] > b,
-
-/*https://en.wikipedia.org/wiki/Mineral_(nutrient)*/
-td[style] > span,
-
-span[class*="charts-n"]
- {
-   color: #0d1117 !important;
- }
-
-/* LIGHTER DARK BLUE BACKGROUND COLORING */
-.mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
-.mw-ui-button:not(.mw-ui-quiet, .mw-ui-pressed, .mw-ui-progressive), td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"],
-td[style*="vertical-align:top; background:#f2f2f4"], th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"],
-td[style*="background:lightgrey"], td[style*="background:silver"], form .cdx-button, div.hidden-title,
-/*Buttons*/
-a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"], button[class*="vector-limited-width-toggle"] {
+/* Lighter dark background */
+tr::before {
   background-color: #21262d !important;
+}
+
+
+
+/*---TEXTS---*/
+
+/* White text */
+div > button /* Search button clicked */, input /* Text input in search field */, 
+/* View history page: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span,
+/* Discussion notice pop up: */ div[id*="semiprotectedpagewarning"], li[class*="mw-logline-protect"],
+/* Programming syntax text: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples */ samp {
   color: #c9d1d9 !important;
 }
-/* LIGHT BLUE (CLICKABLE TEXT) */
-a, a *, .tocnumber, .toctext, label.toctogglelabel, span.toctext i, .mw-collapsible-toggle-default .mw-collapsible-text {
+
+/* Hyperlinks */
+a, a > span {
   color: #58a6ff !important;
 }
 
-/* LIGHT GREY BACKGROUND FOR GRAPHS */
-canvas {
-  background-color: #c9d1d9 !important;
+/* Hyperlinks not existing */
+a[class*="new"] {
+  color: #ff9558 !important;
 }
 
-/* LATEX LIGHT GREY */
-pre, code, .hll, tr::before {
-  background-color: #21262d !important;
-  color: #c9d1d9 !important;
+/* Tables with light background colors - work in progress */
+/* https://en.wikipedia.org/wiki/Piano_key_frequencies */ tr > td[bgcolor*="lightgray"],
+/* https://en.wikipedia.org/wiki/Amateur_radio_call_signs#Formation_of_an_amateur_radio_call_sign */ td[style*="#ffbb"],
+/* https://en.wikipedia.org/wiki/Mineral_(nutrient) */ td[style*="#f2e829"] > span, td[style*="#ebba36"] > span, td[style*="#dd9"] > span, td[style*="#7f0"] > span, td[style*="#cf9"] > span {
+  color: #0d1117 !important;
 }
 
-/* https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members */
-img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
-img[src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Black_x.svg/16px-Black_x.svg.png"], a[href*="/wiki/Special:Preferences#mw-prefsection-rendering"],
-img[src*="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/12px-Loudspeaker.svg.png"],
-span.oo-ui-iconElement-icon, span.vector-icon--x-small,
-span:is([class*="mw-ui-icon-wikimedia-star"], [class*="mw-ui-icon-wikimedia-unStar"]) {
-    filter: invert(90%) !important;
+/*---MISCELLANEOUS---*/
+
+/* Remove white gradient color */
+div#vector-toc.vector-toc.vector-pinnable-element::after, div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
+  background: none !important;
 }
 
-
-/* DARK GREY BACKGROUND - ICONS & BUTTONS VISIBLE */
-.mw-helplink, .oo-ui-indicator-down, .infobox-above.summary, a.oo-ui-icon-bell, a.oo-ui-icon-tray, div.oo-ui-popupWidget-head,
-span[class*="oo-ui-dropdownWidget-handle"] {
-  background-color: #21262d !important;
-}
-
-/*TODO: fix bell icons add here brighter*/
-#searchButton {
-  background-color:#b2b4b6 !important;
-}
-
-/* PROGRESS BARS COLORING (TABLES) */
-div[role="img"] {
-  background-color: #21262d !important;
-}
-
-/* RED & GREEN COLORS (SUB & ADD ICON, INSERT & DELETE REVISIONS) */
-span[class*="icon-subtract"], del {
-  background-color: #e75d53 !important;
-}
-span[class*="icon-add"], ins {
-  background-color: #46a559 !important;
-}
-
-/* CODE SYNTAX TEXT COLORS */
-a.new,
-td.table-no, td[style*="background:#F6E4E7"],
-td.table-no > p, td[style*="background:#F6E4E7"] > p,
-span:is(.kd, .kn),
-span:is(.kd, .kn) > p {
-  color: #FF7B72 !important;
-}
-td.table-yes, td[style*="background:#D4F7D4"],
-td.table-yes > p, td[style*="background:#D4F7D4"] > p {
-  color: #46a559 !important;
-}
-span:is(.na, .k, .nb, .kr, .vg) {
-  color: #FFA657 !important;
-}
-td:is(.table-na, .no.table-no2),
-span.linenos {
-  background-color: #0d1117 !important;
-}
-span:is(.nc, .nf, .kt) {
-  color: #D2A6D7 !important;
-}
-span[class^="s"], span:is(.nn, .c, .nv) {
-  color: #A5D6FF !important;
-}
-td.table-partial, td.table-maybe, td[style*="background:#FFB"], td[style*="background:#FFFFBB"],
-td.table-partial > p, td.table-maybe > p, td[style*="background:#FFB"] > p, td[style*="background:#FFFFBB"] > p,
-span:is(.c1, .cm, .o, .mi, .mf, .fm),
-span:is(.c1, .cm, .o, .mi, .mf, .fm) > p {
-  color: #F6B511 !important;
-}
-
-#footer-icons {
-  background-color: #f2eee8 !important;
-  filter: invert(1);
-}
-/* spanish Wikipedia main page fix*/
-.main-top-left {
-  background-image: none !important;
-  flex: none !important;
-}
-
-a.mw-wiki-logo {
-  content: url("https://raw.githubusercontent.com/hirschan/Dark-Mode-Wikipedia/master/dark_wiki_icon_large.png");
-}
-
-/* SVG FADE ELEMENT INSIDE TABLE OF CONTENTS */
-div#vector-toc.vector-toc.vector-pinnable-element::after,
-div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
-  background: linear-gradient(rgba(255,255,255,0),#0d1117);
-}
-
-/* FIX POPUP TEXT FADE */
+/* Remove popup white gradient fade*/
 .mwe-popups .mwe-popups-extract[dir='ltr']::after{
   background-image:linear-gradient(to right, rgba(13,17,23,0), #0d1117 50%) !important;
 }
 
-/* INVERTS COLOR OF LOGO, TAGLINE, AND VARIOUS ICONS */
-img.mw-logo-wordmark, img.mw-logo-tagline, .mw-ext-score>img, .central-textlogo__image, .uls-add-languages-button, .uls-search-label, .uls-language-actions-close,
-.mw-ui-icon-wikimedia-fullScreen, .mw-ui-icon-wikimedia-exitFullscreen, .mw-ui-icon-wikimedia-menu, .mw-ui-icon-wikimedia-ellipsis, .mw-ui-icon-wikimedia-listBullet,
-.cdx-text-input__icon, .uls-icon-close {
-  background-color: transparent !important;
-  -webkit-filter: invert(1);
-  filter: invert(1);
-}
-
-/* FIX LINE CUTTING ISSUE */
-.vector-menu-tabs .mw-list-item.vector-tab-noicon, .vector-page-toolbar-container .vector-menu-dropdown {
-  border-bottom: 1px solid white;
-}
-
+/* Force white line on top */
 .vector-page-toolbar {
   border-top: 1px solid white;
 }
 
-/* FIX BAckGROUND TRANSPARENCY */
-div#p-dock-bottom {
+/* Coloring icons to white */
+span[class~="vector-icon"], a[class~="vector-icon"], span[class~="oo-ui-iconElement-icon"], 
+/* Checkbox icons in preferences page: */ span[id*="mw-input-wpecho-subscriptions"],
+/* LaTeX formulas: */ img.mwe-math-fallback-image-display, img.mwe-math-fallback-image-inline {
   background-color: transparent !important;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
