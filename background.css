@@ -27,7 +27,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 
 /* AVOID: div[class*="mw"] and div since it causes black bug (GitHub issue #10) */
 div[class*="mw-page-container"], div[class*="vector-header-container"], div[id*="vector-main-menu"], div[id*="vector-toc"], div[id*="mp"], div[class*="side"], div[class*="thumb"],
-div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
+div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"], div[id*="toc"], div[id*="mw-head"], div[id*="mw-fr"], div[id*="content"],
 /* Talk page EN: */ div[id*="talk"], div[id*="centralized"], div[class*="module"], div[id*="main"], td[class*="mp"], div[id*="catlinks"],
 /* View history page: */ div[class*="oo-ui"], div[class*="mw-widget"],
 /* Edit source page: */ div[class*="wiki"], div[class*="edit"], /* div[class*="ext"] - causes video bug */
@@ -40,6 +40,7 @@ div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
 /* Preview tool window: */ div[class*="ext-discussiontools"],
 /* Wikipedia main site: */div[id="js-lang-lists"], div[class*="lang-list-container"],
 /* Quotebox: */ div[class*="quotebox"], div[id*="sisterproject"],
+/* Talkheader: */ div[class*="talkheader"],
 div:root
 {
   background-color: #0d1117 !important;
