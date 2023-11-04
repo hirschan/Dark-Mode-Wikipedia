@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             element.style.backgroundColor = '#0d1117'
         }
         // Text to red from red background
-        if (currentBackgroundColor === 'rgb(255, 199, 199)' || currentBackgroundColor === 'rgb(255, 208, 208)') {
+        if (currentBackgroundColor === 'rgb(255, 199, 199)' || currentBackgroundColor === 'rgb(255, 208, 208)' || currentBackgroundColor === 'rgb(255, 227, 227)') {
             element.style.color = '#e75d53'
             element.style.backgroundColor = '#0d1117'
         }
