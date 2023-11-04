@@ -20,11 +20,12 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 /* DARK BACKGROUND */
 
 /* Set dark background except selectors listed below */
-*:not(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a[class*="mw-tmh-play"]) {
+*:not(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a[class*="mw-tmh-play"],
+/* Text in tables: */ td > span, td > b, td > a, td > sub) {
   background-color: #0d1117 !important;
 }
 
-/* AVOID: div[class*="mw"] and div, causes black bug */
+/* AVOID: div[class*="mw"] and div since it causes black bug (GitHub issue #10) */
 div[class*="mw-page-container"], div[class*="vector-header-container"], div[id*="vector-main-menu"], div[id*="vector-toc"], div[id*="mp"], div[class*="side"], div[class*="thumb"],
 div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
 /* Talk page EN: */ div[id*="talk"], div[id*="centralized"], div[class*="module"], div[id*="main"], td[class*="mp"], div[id*="catlinks"],
@@ -38,6 +39,7 @@ div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"],
 /* Discussion notice pop up: */ div[class*="mw-message-box"],
 /* Preview tool window: */ div[class*="ext-discussiontools"],
 /* Wikipedia main site: */div[id="js-lang-lists"], div[class*="lang-list-container"],
+/* Quotebox: */ div[class*="quotebox"], div[id*="sisterproject"],
 div:root
 {
   background-color: #0d1117 !important;
@@ -55,7 +57,8 @@ tr::before {
 /* White text */
 div > button /* Search button clicked */, input /* Text input in search field */, 
 /* View history page: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span,
-/* Discussion notice pop up: */ div[id*="semiprotectedpagewarning"], li[class*="mw-logline-protect"] {
+/* Discussion notice pop up: */ div[id*="semiprotectedpagewarning"], li[class*="mw-logline-protect"],
+/* Programming syntax text: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples */ samp {
   color: #c9d1d9 !important;
 }
 
@@ -69,6 +72,12 @@ a[class*="new"] {
   color: #ff9558 !important;
 }
 
+/* Tables with light background colors - work in progress */
+/* https://en.wikipedia.org/wiki/Piano_key_frequencies */ tr > td[bgcolor*="lightgray"],
+/* https://en.wikipedia.org/wiki/Amateur_radio_call_signs#Formation_of_an_amateur_radio_call_sign */ td[style*="#ffbb"],
+/* https://en.wikipedia.org/wiki/Mineral_(nutrient) */ td[style*="#f2e829"] > span, td[style*="#ebba36"] > span, td[style*="#dd9"] > span, td[style*="#7f0"] > span, td[style*="#cf9"] > span {
+  color: #0d1117 !important;
+}
 
 /* MISCELLANEOUS */
 

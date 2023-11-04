@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             element.style.backgroundColor = '#0d1117'
         }
         // Text to yellow from yellow background
-        if (currentBackgroundColor === 'rgb(255, 255, 136)') { // https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations
+        if (currentBackgroundColor === 'rgb(255, 255, 136)' || currentBackgroundColor === 'rgb(255, 255, 187)') { // https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations, https://en.wikipedia.org/wiki/Ivan_Reitman#Recurring_cast_members
             element.style.color = '#F1e05a'
             element.style.backgroundColor = '#0d1117'
         }
@@ -69,26 +69,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentBackgroundColor === 'rgb(249, 249, 249)') { // https://en.wikipedia.org/wiki/Latex
             element.style.backgroundColor = '#0d1117'
         }
-
-
-
-        if (currentBackgroundColor === 'rgb(255, 187, 0)') { // https://en.wikipedia.org/wiki/Amateur_radio_call_signs#Formation_of_an_amateur_radio_call_sign
-            element.style.color = '#0d1117'
-        }
-
-        if (currentBackgroundColor === 'rgb(255, 187, 187)') { 
-            element.style.color = '#0d1117'
-        }
-
-        if (currentBackgroundColor === 'rgb(255, 255, 255)') { // https://en.wikipedia.org/wiki/Piano_key_frequencies vs. https://es.wikipedia.org/wiki/King_Crimson#Miembros_pasados
-            element.style.color = '#0d1117'
-        }
-        if (currentBackgroundColor === 'rgb(211, 211, 211)') { 
-            element.style.backgroundColor = '#0d1117'
-        }
-
-
-        // TODO: fix temperature tables
 
     });
 

@@ -30,7 +30,6 @@ Or:
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example.png" width="600">
 
-
 ## Checklist before releases ✔️
 - [X] [Basic Wiki site](https://en.wikipedia.org/wiki/United_Kingdom)
 - [X] [List example](https://en.wikipedia.org/wiki/List_of_countries_by_total_health_expenditure_per_capita)
@@ -42,16 +41,6 @@ Or:
 - [X] [Pie chart](https://en.wikipedia.org/wiki/Wikipedia#Language_editions)
 - [X] [Red green yellow table coloring](https://en.wikipedia.org/wiki/Nordic_Defence_Cooperation#Limitations)
 - [X] [Element "span" grey coloring](https://en.wikipedia.org/wiki/Affricate)
-
-## Wall of Fame 🏆
-* Thank you [Draeggon](https://github.com/Draeggon) for fixing code tags and modifying priority of table coloring
-* Thank you [andersfylling](https://github.com/andersfylling) for suggesting less bright font color
-* Thank you [jjderooy](https://github.com/jjderooy) for finding and fixing color issue with factorial formulas
-* Thank you [sorenss](https://github.com/sorenss), [Mounster-Chef](https://github.com/Mounster-Chef), [megapump](https://github.com/megagrump), [psychofisch](https://github.com/psychofisch) and [HanatakeYurii ](https://github.com/HanatakeYurii) for finding issues
-* Thank you [sbritorodr](https://github.com/sbritorodr) for updating images and Spanish wiki homepage
-* Thank you [Ascent817](https://github.com/Ascent817) for fixing svg element of table of contents
-* Thank you [cjohn-afk](https://github.com/cjohn-afk) for inverting logo and fixing white line issue
-* Thanky you [adiskill](https://github.com/adiskill) for general improvements
 
 ## Checkout PRs locally
 1. Run in cmd: `git fetch origin pull/$ID/head:$BRANCH_NAME`
