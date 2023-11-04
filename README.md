@@ -15,8 +15,10 @@ Based on Github's dark default theme.
 
 # About
 This Firefox extension is suited for the **average** Wikipedia user. It is specifically adapted for the **English 🇬🇧** Wikipedia domain (en.wikipedia.org) and might not be ideal outside of normal activities.
-* If you find any issues, [post here](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/21) or create a pull request
-* 13,000+ downloads on Firefox
+* If you find issues, [post here](https://github.com/hirschan/Dark-Mode-Wikipedia/issues/21)
+* 14,000+ downloads on Firefox
+
+As of October/November 2023, I re-worked this extension to move some coloring logic into `contentScript.js`. Reason: `background.css` became too big and difficult to maintain.
 
 ## Installation
 Can be added as an extension on [Firefox here](https://addons.mozilla.org/firefox/addon/dark-mode-for-wikipedia/).
@@ -48,3 +50,9 @@ Or:
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
+
+## Roadmap
+
+1. [] Refactor `contentScript.js`
+2. [] Introduce CSS file to list colors in
+3. [] Improve coloring logic for tables

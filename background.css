@@ -17,7 +17,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 */
 
 
-/* DARK BACKGROUND */
+/*---DARK BACKGROUND---*/
 
 /* Set dark background except selectors listed below */
 *:not(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a[class*="mw-tmh-play"],
@@ -52,7 +52,7 @@ tr::before {
 
 
 
-/* TEXTS */
+/*---TEXTS---*/
 
 /* White text */
 div > button /* Search button clicked */, input /* Text input in search field */, 
@@ -79,7 +79,7 @@ a[class*="new"] {
   color: #0d1117 !important;
 }
 
-/* MISCELLANEOUS */
+/*---MISCELLANEOUS---*/
 
 /* Remove white gradient color */
 div#vector-toc.vector-toc.vector-pinnable-element::after, div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
