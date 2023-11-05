@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dark Mode for Wikipedia",
-  "version": "4.4.8",
+  "version": "4.4.9",
   "description": "Wikipedia Dark Theme",
 
   "icons": {

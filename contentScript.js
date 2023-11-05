@@ -69,10 +69,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Light grey/white to dark background
-        if (currentBackgroundColor === 'rgb(249, 249, 249)' || currentBackgroundColor === 'rgb(238, 238, 238)' || currentBackgroundColor === 'rgb(255, 255, 255)' || currentBackgroundColor === 'rgb(239, 239, 239)') {
+        const lightGreyBackgroundColors = ['rgb(249, 249, 249)', 'rgb(238, 238, 238)', 'rgb(255, 255, 255)', 'rgb(239, 239, 239)', 'rgb(238, 238, 255)', 'rgb(253, 253, 253)', 'rgb(242, 242, 242)']
+        if (lightGreyBackgroundColors.includes(currentBackgroundColor)) {
             element.style.backgroundColor = '#0d1117'
         }
-        // https://en.wikipedia.org/wiki/Latex, https://en.wikipedia.org/wiki/2023_Armenian_protests, https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Forecasts, https://en.wikipedia.org/wiki/List_of_wars_involving_Azerbaijan
+        // https://en.wikipedia.org/wiki/Latex, https://en.wikipedia.org/wiki/2023_Armenian_protests, https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Forecasts, https://en.wikipedia.org/wiki/List_of_wars_involving_Azerbaijan, https://fr.wikipedia.org/wiki/Sam_Bankman-Fried
 
     });
 
