@@ -86,7 +86,7 @@ a[class*="new"] {
 /*---MISCELLANEOUS---*/
 
 /* Remove white gradient color */
-div#vector-toc.vector-toc.vector-pinnable-element::after, div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
+div#vector-toc.vector-toc.vector-pinnable-element::after, div#vector-page-tools.vector-page-tools.vector-pinnable-element::after, div.vector-sticky-pinned-container::after {
   background: none !important;
 }
 

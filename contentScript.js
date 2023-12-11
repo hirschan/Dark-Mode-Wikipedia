@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
 
-        // Grey background t-> lighter dark background
+        // Grey background -> lighter dark background
         if (currentBackgroundColor === 'rgb(240, 240, 240)') {
             element.style.backgroundColor = colorNames.darkBackgroundLighter
         }
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Light grey/white background -> dark background
-        const lightGreyBackgroundColors = ['rgb(249, 249, 249)', 'rgb(238, 238, 238)', 'rgb(255, 255, 255)', 'rgb(239, 239, 239)', 'rgb(238, 238, 255)', 'rgb(253, 253, 253)', 'rgb(242, 242, 242)']
+        const lightGreyBackgroundColors = ['rgb(249, 249, 249)', 'rgb(238, 238, 238)', 'rgb(255, 255, 255)', 'rgb(239, 239, 239)', 'rgb(238, 238, 255)', 'rgb(253, 253, 253)', 'rgb(242, 242, 242)', 'rgb(221, 221, 255)', 'rgb(223, 223, 223)']
         
         if (lightGreyBackgroundColors.includes(currentBackgroundColor)) {
             element.style.backgroundColor = colorNames.darkBackground
