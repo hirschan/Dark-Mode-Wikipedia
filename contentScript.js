@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
         // Search button text, headline text and grey text -> white text
-        const lightTextColors = ['rgb(32, 33, 34)', 'rgb(0, 0, 0)', 'rgb(84, 89, 93)']
+        const lightTextColors = ['rgb(32, 33, 34)', 'rgb(0, 0, 0)', 'rgb(84, 89, 93)', 'rgb(51, 51, 51)']
 
         if (lightTextColors.includes(currentColor)) {
             element.style.color = colorNames.whiteTextColor
