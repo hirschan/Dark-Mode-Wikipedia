@@ -20,7 +20,7 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 /*---DARK BACKGROUND---*/
 
 /* Set dark background except selectors listed below */
-*:not(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a[class*="mw-tmh-play"],
+*:not(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a[class*="mw-tmh-play"], button[class*="mw-mmv-"],
 /* Text in tables: */ td > span, td > b, td > a, td > sub,
 /* Screenshot & Foxy Gesture bug fix #41: */ iframe, canvas,
 /* Color scheme under images, e.g: https://en.wikipedia.org/wiki/2023_Israel%E2%80%93Hamas_war#Invasion_of_the_Gaza_Strip_(27_October%E2%80%93present) */ span[class*="legend-color"]) {
