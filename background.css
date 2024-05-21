@@ -42,6 +42,7 @@ div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"], div[id*="toc"], d
 /* Wikipedia main site: */div[id="js-lang-lists"], div[class*="lang-list-container"],
 /* Quotebox: */ div[class*="quotebox"], div[id*="sisterproject"],
 /* Talkheader: */ div[class*="talkheader"],
+/* Empty table cells */ td[class*="table-na"],
 div:root
 {
   background-color: #0d1117 !important;
@@ -61,7 +62,8 @@ div > button /* Search button clicked */, input /* Text input in search field */
 /* View history page: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span,
 /* Discussion notice pop up: */ div[id*="semiprotectedpagewarning"], li[class*="mw-logline-protect"],
 /* Programming syntax text: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples */ samp,
-/* Quotes: */ blockquote > div > p {
+/* Quotes: */ blockquote > div > p, 
+/* Empty table cells */ td[class*="table-na"] {
   color: #c9d1d9 !important;
 }
 
