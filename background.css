@@ -24,7 +24,8 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 /* Text in tables: */ td > span, td > b, td > a, td > sub,
 /* Screenshot & Foxy Gesture bug fix #41: */ iframe, canvas,
 /* Color scheme under images, e.g: https://en.wikipedia.org/wiki/2023_Israel%E2%80%93Hamas_war#Invasion_of_the_Gaza_Strip_(27_October%E2%80%93present) */ span[class*="legend-color"],
-/* Images */ img[class*="mw-file-element"]),
+/* Images */ img[class*="mw-file-element"],
+/* Logo*/ img[class="mw-logo-wordmark"], img[class="mw-logo-tagline"]),
 
 /* AVOID: div[class*="mw"] and div since it causes black bug (GitHub issue #10) */
 div[class*="mw-page-container"], div[class*="vector-header-container"], div[id*="vector-main-menu"], div[id*="vector-toc"], div[id*="mp"], div[class*="side"], div[class*="thumb"],
@@ -109,4 +110,8 @@ span[class~="vector-icon"], a[class~="vector-icon"], span[class~="oo-ui-iconElem
   background-color: transparent !important;
   -webkit-filter: invert(1);
   filter: invert(1);
+}
+
+img[class="mw-logo-wordmark"], img[class="mw-logo-tagline"] {
+  filter: invert(.7)
 }
