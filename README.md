@@ -29,6 +29,9 @@ Or:
 3. Press: **Load Temporary Add-on...**
 4. Select **manifest.json**
 
+
+`generate_zip.bat` is a batch-file that generates a zip file for all the content. It makes it easier when submitting new versions (automating zip file creation). 
+
 ## Example
 <img src ="https://github.com/hirschan/Dark-Mode-Wikipedia/blob/master/screenshots/screenshot_example_nov_2023.png" width="600">
 
