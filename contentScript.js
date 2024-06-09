@@ -43,7 +43,7 @@ const colorMappings = {
       'rgb(170, 170, 255)': {
         textColor: 'rgb(170, 170, 255)',
         backgroundColor: colorNames.darkBackground
-      },
+      }
 }
 
 // Waiting for DOM to load
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Light grey/white background -> dark background
-        const lightGreyBackgroundColors = ['rgb(249, 249, 249)', 'rgb(238, 238, 238)', 'rgb(255, 255, 255)', 'rgb(239, 239, 239)', 'rgb(238, 238, 255)', 'rgb(253, 253, 253)', 'rgb(242, 242, 242)', 'rgb(221, 221, 255)', 'rgb(223, 223, 223)', 'rgb(241, 241, 241)', 'rgb(234, 234, 234)']
+        const lightGreyBackgroundColors = ['rgb(249, 249, 249)', 'rgb(238, 238, 238)', 'rgb(255, 255, 255)', 'rgb(239, 239, 239)', 'rgb(238, 238, 255)', 'rgb(253, 253, 253)', 'rgb(242, 242, 242)', 'rgb(221, 221, 255)', 'rgb(223, 223, 223)', 'rgb(241, 241, 241)', 'rgb(234, 234, 234)', 'rgb(234, 236, 240)', 'rgb(248, 249, 250)']
 
         if (lightGreyBackgroundColors.includes(currentBackgroundColor)) {
             element.style.backgroundColor = colorNames.darkBackground
