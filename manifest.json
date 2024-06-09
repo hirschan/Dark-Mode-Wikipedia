@@ -12,7 +12,6 @@
     {
       "run_at": "document_start",
       "matches": ["*://*.wikipedia.org/*"],
-      "exclude_matches": ["*://*.wikipedia.org/*#/map/*"],
       "js":["contentScript.js"],
       "css": ["background.css"]
     }
