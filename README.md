@@ -50,9 +50,3 @@ Or:
 
 ## Buy me a coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hirschan)
-
-## Roadmap & ideas
-
-- [ ] Improve coloring logic for tables
-- [ ] Fix login bug button
-- [ ] Add small UI option/button for submitting bugs?
