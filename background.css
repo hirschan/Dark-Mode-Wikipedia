@@ -25,7 +25,8 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 /* Screenshot & Foxy Gesture bug fix #41: */ iframe, canvas,
 /* Color scheme under images, e.g: https://en.wikipedia.org/wiki/2023_Israel%E2%80%93Hamas_war#Invasion_of_the_Gaza_Strip_(27_October%E2%80%93present) */ span[class*="legend-color"],
 /* Images */ img[class*="mw-file-element"],
-/* Logo*/ img[class="mw-logo-wordmark"], img[class="mw-logo-tagline"]),
+/* Logo*/ img[class="mw-logo-wordmark"], img[class="mw-logo-tagline"]
+ ),
 
 /* AVOID: div[class*="mw"] and div since it causes black bug (GitHub issue #10) */
 div[class*="mw-page-container"], div[class*="vector-header-container"], div[id*="vector-main-menu"], div[id*="vector-toc"], div[id*="mp"], div[class*="side"], div[class*="thumb"],
@@ -50,7 +51,7 @@ div:root
 }
 
 /* Lighter dark background */
-tr::before {
+tr::before, img[src$=".svg.png"] {
   background-color: #21262d !important;
 }
 
