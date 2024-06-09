@@ -19,13 +19,14 @@ Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp
 
 /*---DARK BACKGROUND---*/
 
-/* Set dark background except selectors listed below */
+/* Set dark background on everything except selectors listed below, inside not(): */
 *:not(:is(tr, td, div[style*="background-color"], div > div > span, td > div > span, div, a[class*="mw-tmh-play"], button[class*="mw-mmv-"],
 /* Text in tables: */ td > span, td > b, td > a, td > sub,
 /* Screenshot & Foxy Gesture bug fix #41: */ iframe, canvas,
 /* Color scheme under images, e.g: https://en.wikipedia.org/wiki/2023_Israel%E2%80%93Hamas_war#Invasion_of_the_Gaza_Strip_(27_October%E2%80%93present) */ span[class*="legend-color"],
 /* Images */ img[class*="mw-file-element"],
-/* Logo*/ img[class="mw-logo-wordmark"], img[class="mw-logo-tagline"]
+/* Logo*/ img[class="mw-logo-wordmark"], img[class="mw-logo-tagline"],
+/* Buttons in OpenStreetMap */ a[class*="leaflet-control"], a[class*="oo-ui-icon"]
  )),
 
 /* AVOID: div[class*="mw"] and div since it causes black bug (GitHub issue #10) */
@@ -45,13 +46,14 @@ div[class*="row"], div[class*="mwe"], div[id*="mw-watchlink"], div[id*="toc"], d
 /* Quotebox: */ div[class*="quotebox"], div[id*="sisterproject"],
 /* Talkheader: */ div[class*="talkheader"],
 /* Empty table cells */ td[class*="table-na"],
+/* OpenStreetMap bottom divider */ div[class~="mw-kartographer-map-foot"],
 div:root
 {
   background-color: #0d1117 !important;
 }
 
 /* Lighter dark background */
-tr::before{
+tr::before {
   background-color: #21262d !important;
 }
 
@@ -68,7 +70,7 @@ div > button /* Search button clicked */, input /* Text input in search field */
 /* View history page: */ div[id*="oo"], div[class*="oo"], div[class*="mw-widget"], div[class*="mw-echo"], span,
 /* Discussion notice pop up: */ div[id*="semiprotectedpagewarning"], li[class*="mw-logline-protect"],
 /* Programming syntax text: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#Examples */ samp,
-/* Quotes: */ blockquote > div > p, 
+/* Quotes: */ blockquote > div > p,
 /* Empty table cells */ td[class*="table-na"] {
   color: #c9d1d9 !important;
 }
